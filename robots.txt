@@ -1,0 +1,7 @@
+# This is a personal course-planning tool, not a publication. The page is
+# reachable by anyone with the link, but it reproduces ETH Zurich's course
+# catalogue and unofficial grade statistics compiled by student
+# representatives, so it should not be surfaced in search results.
+# See NOTICE.md.
+User-agent: *
+Disallow: /

@@ -3,8 +3,10 @@
 A single-page course browser and credit planner for the ETH Zürich MSc in Statistics,
 built from the official course catalogue.
 
-**Live page:** open `planner.html` in a browser — it is fully self-contained, no server
-and no build step required.
+**Live:** <https://hermberg.github.io/mscstats-eth-course-planner/>
+
+Or open `index.html` from a checkout — the page is fully self-contained, so it needs no
+server and no build step.
 
 ![Autumn and spring catalogues merged into one searchable table](docs/screenshot.png)
 
@@ -28,16 +30,17 @@ and no build step required.
 | File | Role |
 |---|---|
 | `parse.py` | PDF → `courses.json`. The whole extraction pipeline. |
-| `build.py` | `courses.json` → `planner.html`. Page template, styles and FAQ layer. |
+| `build.py` | `courses.json` → `index.html`. Page template, styles and FAQ layer. |
 | `courses.json` | The parsed catalogue, 90 records. The useful artifact if you only want data. |
-| `planner.html` | Generated page. Committed so it can be opened or served directly. |
+| `index.html` | Generated page. Committed so GitHub Pages can serve it directly. |
 | `pdf/` | The two catalogue prints the parse reads. |
+| `robots.txt` | Keeps the published page out of search indexes. See NOTICE.md. |
 
 ## Rebuilding
 
 ```bash
 python3 parse.py     # pdf/*.pdf  -> courses.json   (needs pdftotext, from poppler-utils)
-python3 build.py     # courses.json -> planner.html (no dependencies)
+python3 build.py     # courses.json -> index.html   (no dependencies)
 ```
 
 Both honour environment overrides: `PDF_DIR`, `COURSES`, `OUT`.

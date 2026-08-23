@@ -1053,5 +1053,5 @@ stickyOffsets();
 </script>
 """
 
-open(os.environ.get("OUT", os.path.join(HERE, "planner.html")), "w").write(TPL.replace("__PAYLOAD__", PAYLOAD))
+open(os.environ.get("OUT", os.path.join(HERE, "index.html")), "w").write(TPL.replace("__PAYLOAD__", PAYLOAD))
 print("written", len(TPL) + len(PAYLOAD), "bytes")

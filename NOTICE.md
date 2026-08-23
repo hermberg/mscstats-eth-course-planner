@@ -5,11 +5,19 @@ resource and carries no authority over any of the material it presents.
 
 ## Course catalogue data
 
-`courses.json`, `pdf/` and the course content rendered in `planner.html` are taken from
+`courses.json`, `pdf/` and the course content rendered in `index.html` are taken from
 the **ETH Zürich course catalogue** (`vvz.ethz.ch`) for the Master's Programme in
 Statistics, autumn and spring semesters. Copyright in that material belongs to ETH
 Zürich. It is reproduced here unmodified, for personal academic planning, with each
 course linking back to its catalogue entry.
+
+The catalogue is **published openly by ETH** — no login, paywall or enrolment is required
+to read any of it, and the PDFs here are ordinary prints of pages anyone can visit. So
+nothing in this repository was private before it was published here. That speaks to
+*exposure*, not to *copyright*: material being freely readable at its source is not the
+same as being freely redistributable, which is why this repository reproduces it
+unmodified, attributes it, links every course back to its catalogue entry, and licenses
+only the code.
 
 The catalogue changes continuously — courses are withdrawn, credits and lecturers change,
 biennial courses skip years. **Treat anything here as a snapshot and verify against the
@@ -30,6 +38,13 @@ as predictions.
 
 For authoritative rules, see the study regulations (Art. 30) and the official programme
 FAQ at `math.ethz.ch/sfs/education/msc-in-statistics`.
+
+## Search indexing
+
+`robots.txt` asks crawlers not to index the published page. The catalogue itself is open,
+but the FAQ excerpts and the unofficial grade statistics were written for a student
+audience, and there is no reason for them to surface in general search results. The page
+stays reachable by anyone with the link.
 
 ## Dates
 
