@@ -214,7 +214,7 @@ body{
   font-family:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
   font-size:15px; line-height:1.5; -webkit-font-smoothing:antialiased;
 }
-.wrap{max-width:1180px; margin:0 auto; padding:0 20px 96px}
+.wrap{max-width:1180px; margin:0 auto; padding:0 20px calc(var(--bar-h,92px) + 32px)}
 
 /* ---------- masthead ---------- */
 header.mast{padding:44px 0 26px; border-bottom:1px solid var(--line)}
@@ -456,13 +456,14 @@ mark{background:var(--accent-soft); color:inherit; border-radius:2px; padding:0 
 
 /* ---------- basket ---------- */
 .basket{position:fixed; left:0; right:0; bottom:0; z-index:30; background:var(--surface);
-  border-top:1px solid var(--line); box-shadow:var(--shadow); transform:translateY(102%);
-  transition:transform .18s ease}
-.basket.on{transform:none}
+  border-top:1px solid var(--line); box-shadow:var(--shadow)}
 .basket{max-height:86vh; display:flex; flex-direction:column}
 .basket .inner{max-width:1180px; width:100%; margin:0 auto; padding:0 20px 11px;
   display:flex; flex-direction:column; gap:10px; min-height:0}
 .brow{display:flex; flex-wrap:wrap; gap:8px 16px; align-items:baseline; padding-top:11px}
+.bhint{font-size:13px; color:var(--muted)}
+.basket.nopicks #bcount,.basket.nopicks #bsplit,.basket.nopicks #bclear{display:none}
+.basket:not(.nopicks) .bhint{display:none}
 .basket .tot{font-family:"JetBrains Mono",monospace; font-size:13px; font-variant-numeric:tabular-nums}
 .basket .tot b{font-size:16px; font-weight:600}
 .showsel{font-family:"Source Serif 4",Georgia,serif; font-size:19px; font-weight:600;
@@ -491,7 +492,7 @@ mark{background:var(--accent-soft); color:inherit; border-radius:2px; padding:0 
 .selsub{position:sticky; top:34px; z-index:2; background:var(--surface);
   font-family:"JetBrains Mono",monospace; font-size:10px; letter-spacing:.13em;
   text-transform:uppercase; color:var(--muted); padding:9px 0 4px}
-.selsub.empty{color:var(--faint)}
+.selsub.none{color:var(--faint)}
 .selrow{display:grid; grid-template-columns:106px 26px 1fr 46px 22px; gap:12px;
   align-items:baseline; padding:5px 0; border-bottom:1px solid var(--line-2)}
 .selrow .code{line-height:1.15}
@@ -507,7 +508,7 @@ mark{background:var(--accent-soft); color:inherit; border-radius:2px; padding:0 
   padding-top:11px; border-top:1.5px solid var(--ink); font-family:"JetBrains Mono",monospace;
   font-size:12.5px; font-variant-numeric:tabular-nums}
 .seltail .tl{font-family:"Inter",sans-serif; font-size:12.5px; color:var(--muted)}
-.empty{padding:44px 4px; color:var(--muted); font-size:14px}
+.noresults{padding:44px 4px; color:var(--muted); font-size:14px}
 
 @media (max-width:820px){
   .hdr{grid-template-columns:24px 1fr 60px 22px; row-gap:3px}
@@ -520,6 +521,9 @@ mark{background:var(--accent-soft); color:inherit; border-radius:2px; padding:0 
   .detail{padding-left:8px}
   /* Column labels describe a grid the mobile layout doesn't use — keep only
      the Hours key, which is the one label carrying information of its own. */
+  .reqs{flex-wrap:nowrap; overflow-x:auto; scrollbar-width:none; padding-bottom:2px}
+  .reqs::-webkit-scrollbar{display:none}
+  .req{flex:0 0 auto}
   .cols{display:flex; gap:16px; padding:0 4px 6px}
   .cols .colh:not(:nth-last-child(3)){display:none}
   .cols .colh:nth-last-child(3){display:block}
@@ -647,8 +651,9 @@ mark{background:var(--accent-soft); color:inherit; border-radius:2px; padding:0 
     <div class="selpanel" id="selpanel" hidden></div>
     <div class="brow">
       <button class="showsel" id="showsel" aria-expanded="false" aria-controls="selpanel">Show selection</button>
-      <div class="tot">Selected <b id="bn">0</b> courses · <b id="be">0</b> credits</div>
+      <div class="tot" id="bcount">Selected <b id="bn">0</b> courses · <b id="be">0</b> credits</div>
       <div class="tot" id="bsplit"></div>
+      <div class="bhint" id="bhint">Tick a course to start building a semester.</div>
       <span class="spacer"></span>
       <button class="linkbtn" id="bclear">Clear</button>
     </div>
@@ -766,7 +771,7 @@ function render(){
   const rows = DATA.filter(match);
   const out = document.getElementById("out");
   if(!rows.length){
-    out.innerHTML = `<p class="empty">No course matches those filters. Try clearing the search, or <button class="linkbtn" onclick="document.getElementById('reset').click()">reset the filters</button>.</p>`;
+    out.innerHTML = `<p class="noresults">No course matches those filters. Try clearing the search, or <button class="linkbtn" onclick="document.getElementById('reset').click()">reset the filters</button>.</p>`;
   } else if(st.sort === "cat"){
     let h = "";
     for(const sec of SECS){
@@ -854,8 +859,9 @@ function basket(){
   // all report the same totals. A course ticked in both semesters counts once,
   // under the earlier semester, and shows both tags in the panel.
   const sel = pickedCourses();
-  const box = document.getElementById("basket");
-  box.classList.toggle("on", sel.length > 0);
+  // The bar is always on screen: with nothing selected it still shows the
+  // requirement targets, which is the part worth seeing before you start.
+  document.getElementById("basket").classList.toggle("nopicks", sel.length === 0);
   const tot = sel.reduce((a,b) => a+b.ects, 0);
   const a = sel.filter(x => x.sems.slice().sort()[0] === "A").reduce((x,y) => x+y.ects, 0);
   const s2 = sel.filter(x => x.sems.slice().sort()[0] === "S").reduce((x,y) => x+y.ects, 0);
@@ -910,7 +916,7 @@ function selectionPanel(){
     if(sec === "Core Courses"){
       for(const sub of SUBS){
         const g = inSec.filter(c => c.sub === sub);
-        h += `<div class="selsub ${g.length ? "" : "empty"}">${esc(sub)}${g.length ? "" : " — none selected"}</div>`;
+        h += `<div class="selsub ${g.length ? "" : "none"}">${esc(sub)}${g.length ? "" : " — none selected"}</div>`;
         h += g.map(row).join("");
       }
     } else {
@@ -1030,6 +1036,7 @@ document.getElementById("showsel").addEventListener("click", e => {
   e.target.setAttribute("aria-expanded", String(!p.hidden));
   e.target.textContent = p.hidden ? "Show selection" : "Hide selection";
   selectionPanel();
+  stickyOffsets();
 });
 document.getElementById("selpanel").addEventListener("click", e => {
   const b = e.target.closest(".unpick"); if(!b) return;
@@ -1044,6 +1051,13 @@ function stickyOffsets(){
   const sec = document.querySelector(".sechead");
   if(sec) document.documentElement.style.setProperty(
     "--sec-h", Math.round(sec.getBoundingClientRect().height) + "px");
+  const bar = document.querySelector(".basket");
+  const panel = document.getElementById("selpanel");
+  // Measure the collapsed bar: an expanded panel scrolls internally and must
+  // not push the page's bottom padding to half the viewport.
+  if(bar) document.documentElement.style.setProperty("--bar-h",
+    Math.round(bar.getBoundingClientRect().height
+      - (panel && !panel.hidden ? panel.getBoundingClientRect().height : 0)) + "px");
 }
 if(window.ResizeObserver) new ResizeObserver(stickyOffsets).observe(document.body);
 window.addEventListener("resize", stickyOffsets);
