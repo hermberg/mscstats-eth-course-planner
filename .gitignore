@@ -1,3 +1,6 @@
 __pycache__/
 *.pyc
 .DS_Store
+
+# Source grade-statistics reports are intentionally not committed — see NOTICE.md
+gradestats/*.pdf

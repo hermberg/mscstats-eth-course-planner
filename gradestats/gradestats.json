@@ -1,0 +1,4442 @@
+{
+ "103-0251-00L": {
+  "title": "Computational Methods for Geospatial Analysis",
+  "latest": {
+   "session": "W24",
+   "sem": "HS 2023",
+   "n_stats": 1,
+   "n_all": 20,
+   "avg": 5.25,
+   "pass": 100.0,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W24",
+    "sem": "HS 2023",
+    "n_stats": 1,
+    "n_all": 20,
+    "avg": 5.25,
+    "pass": 100.0,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "103-0287-00L": {
+  "title": "Image-based Mapping",
+  "latest": {
+   "session": "W24",
+   "sem": "HS 2023",
+   "n_stats": 1,
+   "n_all": 9,
+   "avg": null,
+   "pass": null,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W24",
+    "sem": "HS 2023",
+    "n_stats": 1,
+    "n_all": 9,
+    "avg": null,
+    "pass": null,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "151-0325-00L": {
+  "title": "Planning and Decision Making for Autonomous Robots",
+  "latest": {
+   "session": "W26",
+   "sem": "HS 2025",
+   "n_stats": null,
+   "n_all": 187,
+   "avg": 5.57,
+   "pass": 96.8,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W26",
+    "sem": "HS 2025",
+    "n_stats": null,
+    "n_all": 187,
+    "avg": 5.57,
+    "pass": 96.8,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "151-0563-01L": {
+  "title": "Dynamic Programming and Optimal Control",
+  "latest": {
+   "session": "W24",
+   "sem": "HS 2023",
+   "n_stats": 1,
+   "n_all": 210,
+   "avg": 4.97,
+   "pass": 95.7,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W24",
+    "sem": "HS 2023",
+    "n_stats": 1,
+    "n_all": 210,
+    "avg": 4.97,
+    "pass": 95.7,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "151-0623-00L": {
+  "title": "ETH Zurich Distinguished Seminar in Robotics, Systems and Controls",
+  "latest": {
+   "session": "W24",
+   "sem": "HS 2023",
+   "n_stats": 1,
+   "n_all": 82,
+   "avg": null,
+   "pass": 100.0,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W24",
+    "sem": "HS 2023",
+    "n_stats": 1,
+    "n_all": 82,
+    "avg": null,
+    "pass": 100.0,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "151-0632-00L": {
+  "title": "Vision Algorithms for Mobile Robotics (University of Zurich)",
+  "latest": {
+   "session": "W26",
+   "sem": "HS 2025",
+   "n_stats": null,
+   "n_all": 93,
+   "avg": 5.24,
+   "pass": 98.9,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W26",
+    "sem": "HS 2025",
+    "n_stats": null,
+    "n_all": 93,
+    "avg": 5.24,
+    "pass": 98.9,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "151-0851-00L": {
+  "title": "Robot Dynamics",
+  "latest": {
+   "session": "W26",
+   "sem": "HS 2025",
+   "n_stats": null,
+   "n_all": 324,
+   "avg": 5.11,
+   "pass": 94.1,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W26",
+    "sem": "HS 2025",
+    "n_stats": null,
+    "n_all": 324,
+    "avg": 5.11,
+    "pass": 94.1,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "227-0085-59L": {
+  "title": "Hands-On Deep Learning",
+  "latest": {
+   "session": "S24",
+   "sem": "FS 2024",
+   "n_stats": 12,
+   "n_all": 133,
+   "avg": null,
+   "pass": 96.2,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "S24",
+    "sem": "FS 2024",
+    "n_stats": 12,
+    "n_all": 133,
+    "avg": null,
+    "pass": 96.2,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "227-0101-00L": {
+  "title": "Discrete-Time and Statistical Signal Processing",
+  "latest": {
+   "session": "W25",
+   "sem": "HS 2024",
+   "n_stats": null,
+   "n_all": 41,
+   "avg": 4.9,
+   "pass": 87.8,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W25",
+    "sem": "HS 2024",
+    "n_stats": null,
+    "n_all": 41,
+    "avg": 4.9,
+    "pass": 87.8,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "227-0423-00L": {
+  "title": "Neural Network Theory",
+  "latest": {
+   "session": "W24",
+   "sem": "HS 2023",
+   "n_stats": 3,
+   "n_all": 68,
+   "avg": 5.26,
+   "pass": 89.7,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W24",
+    "sem": "HS 2023",
+    "n_stats": 3,
+    "n_all": 68,
+    "avg": 5.26,
+    "pass": 89.7,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "227-0434-10L": {
+  "title": "Mathematics of Information",
+  "latest": {
+   "session": "S24",
+   "sem": "FS 2024",
+   "n_stats": 2,
+   "n_all": 20,
+   "avg": 4.47,
+   "pass": 75.0,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "S24",
+    "sem": "FS 2024",
+    "n_stats": 2,
+    "n_all": 20,
+    "avg": 4.47,
+    "pass": 75.0,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "227-0447-00L": {
+  "title": "Image Analysis and Computer Vision",
+  "latest": {
+   "session": "W25",
+   "sem": "HS 2024",
+   "n_stats": null,
+   "n_all": 180,
+   "avg": 5.0,
+   "pass": 95.6,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W25",
+    "sem": "HS 2024",
+    "n_stats": null,
+    "n_all": 180,
+    "avg": 5.0,
+    "pass": 95.6,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "227-0731-00L": {
+  "title": "Power Market I - Portfolio and Risk Management",
+  "latest": {
+   "session": "W25",
+   "sem": "HS 2024",
+   "n_stats": null,
+   "n_all": 139,
+   "avg": 4.74,
+   "pass": 82.7,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W25",
+    "sem": "HS 2024",
+    "n_stats": null,
+    "n_all": 139,
+    "avg": 4.74,
+    "pass": 82.7,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "252-0002-AAL": {
+  "title": "Data Structures and Algorithms",
+  "latest": {
+   "session": "S24",
+   "sem": "FS 2024",
+   "n_stats": null,
+   "n_all": 19,
+   "avg": 4.14,
+   "pass": 73.7,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "S24",
+    "sem": "FS 2024",
+    "n_stats": null,
+    "n_all": 19,
+    "avg": 4.14,
+    "pass": 73.7,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "252-0220-00L": {
+  "title": "Introduction to Machine Learning",
+  "latest": {
+   "session": "S25",
+   "sem": "FS 2025",
+   "n_stats": 19,
+   "n_all": 761,
+   "avg": 4.83,
+   "pass": 90.3,
+   "avg_stats": 5.41,
+   "pass_stats": 100.0
+  },
+  "history": [
+   {
+    "session": "W24",
+    "sem": "HS 2023",
+    "n_stats": 1,
+    "n_all": 85,
+    "avg": 4.67,
+    "pass": 89.4,
+    "avg_stats": null,
+    "pass_stats": null
+   },
+   {
+    "session": "S24",
+    "sem": "FS 2024",
+    "n_stats": 28,
+    "n_all": 915,
+    "avg": 4.86,
+    "pass": 93.6,
+    "avg_stats": 5.23,
+    "pass_stats": 100.0
+   },
+   {
+    "session": "W25",
+    "sem": "HS 2024",
+    "n_stats": null,
+    "n_all": 93,
+    "avg": 4.63,
+    "pass": 88.2,
+    "avg_stats": null,
+    "pass_stats": null
+   },
+   {
+    "session": "S25",
+    "sem": "FS 2025",
+    "n_stats": 19,
+    "n_all": 761,
+    "avg": 4.83,
+    "pass": 90.3,
+    "avg_stats": 5.41,
+    "pass_stats": 100.0
+   }
+  ],
+  "retake": false
+ },
+ "252-0526-00L": {
+  "title": "Statistical Learning Theory",
+  "latest": {
+   "session": "S24",
+   "sem": "FS 2024",
+   "n_stats": 3,
+   "n_all": 50,
+   "avg": 4.81,
+   "pass": 88.0,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "S24",
+    "sem": "FS 2024",
+    "n_stats": 3,
+    "n_all": 50,
+    "avg": 4.81,
+    "pass": 88.0,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "252-0535-00L": {
+  "title": "Advanced Machine Learning",
+  "latest": {
+   "session": "W26",
+   "sem": "HS 2025",
+   "n_stats": null,
+   "n_all": 214,
+   "avg": 4.84,
+   "pass": 87.9,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W24",
+    "sem": "HS 2023",
+    "n_stats": 1,
+    "n_all": 211,
+    "avg": 4.66,
+    "pass": 87.2,
+    "avg_stats": null,
+    "pass_stats": null
+   },
+   {
+    "session": "S24",
+    "sem": "FS 2024",
+    "n_stats": 1,
+    "n_all": 21,
+    "avg": 5.19,
+    "pass": 76.2,
+    "avg_stats": null,
+    "pass_stats": null
+   },
+   {
+    "session": "W25",
+    "sem": "HS 2024",
+    "n_stats": null,
+    "n_all": 224,
+    "avg": 4.71,
+    "pass": 85.3,
+    "avg_stats": null,
+    "pass_stats": null
+   },
+   {
+    "session": "W26",
+    "sem": "HS 2025",
+    "n_stats": null,
+    "n_all": 214,
+    "avg": 4.84,
+    "pass": 87.9,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "252-0840-02L": {
+  "title": "Anwendungsnahes Programmieren mit Python",
+  "latest": {
+   "session": "S24",
+   "sem": "FS 2024",
+   "n_stats": 3,
+   "n_all": 209,
+   "avg": null,
+   "pass": 100.0,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "S24",
+    "sem": "FS 2024",
+    "n_stats": 3,
+    "n_all": 209,
+    "avg": null,
+    "pass": 100.0,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "252-0856-00L": {
+  "title": "Informatik",
+  "latest": {
+   "session": "W26",
+   "sem": "HS 2025",
+   "n_stats": null,
+   "n_all": 55,
+   "avg": 4.71,
+   "pass": 76.4,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W24",
+    "sem": "HS 2023",
+    "n_stats": null,
+    "n_all": 74,
+    "avg": 5.07,
+    "pass": 87.8,
+    "avg_stats": null,
+    "pass_stats": null
+   },
+   {
+    "session": "W25",
+    "sem": "HS 2024",
+    "n_stats": null,
+    "n_all": 86,
+    "avg": 4.88,
+    "pass": 83.7,
+    "avg_stats": null,
+    "pass_stats": null
+   },
+   {
+    "session": "W26",
+    "sem": "HS 2025",
+    "n_stats": null,
+    "n_all": 55,
+    "avg": 4.71,
+    "pass": 76.4,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "252-3005-00L": {
+  "title": "Natural Language Processing",
+  "latest": {
+   "session": "W26",
+   "sem": "HS 2025",
+   "n_stats": null,
+   "n_all": 70,
+   "avg": 5.03,
+   "pass": 84.3,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W24",
+    "sem": "HS 2023",
+    "n_stats": 2,
+    "n_all": 96,
+    "avg": 5.05,
+    "pass": 99.0,
+    "avg_stats": null,
+    "pass_stats": null
+   },
+   {
+    "session": "W25",
+    "sem": "HS 2024",
+    "n_stats": null,
+    "n_all": 89,
+    "avg": 5.13,
+    "pass": 92.1,
+    "avg_stats": null,
+    "pass_stats": null
+   },
+   {
+    "session": "W26",
+    "sem": "HS 2025",
+    "n_stats": null,
+    "n_all": 70,
+    "avg": 5.03,
+    "pass": 84.3,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "252-3900-00L": {
+  "title": "Big Data for Engineers",
+  "latest": {
+   "session": "S24",
+   "sem": "FS 2024",
+   "n_stats": 8,
+   "n_all": 142,
+   "avg": 5.33,
+   "pass": 96.5,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "S24",
+    "sem": "FS 2024",
+    "n_stats": 8,
+    "n_all": 142,
+    "avg": 5.33,
+    "pass": 96.5,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "252-5051-00L": {
+  "title": "Advanced Topics in Machine Learning",
+  "latest": {
+   "session": "W26",
+   "sem": "HS 2025",
+   "n_stats": null,
+   "n_all": 40,
+   "avg": 5.73,
+   "pass": 100.0,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W24",
+    "sem": "HS 2023",
+    "n_stats": 2,
+    "n_all": 40,
+    "avg": 5.58,
+    "pass": 100.0,
+    "avg_stats": null,
+    "pass_stats": null
+   },
+   {
+    "session": "W25",
+    "sem": "HS 2024",
+    "n_stats": null,
+    "n_all": 36,
+    "avg": 5.56,
+    "pass": 97.2,
+    "avg_stats": null,
+    "pass_stats": null
+   },
+   {
+    "session": "W26",
+    "sem": "HS 2025",
+    "n_stats": null,
+    "n_all": 40,
+    "avg": 5.73,
+    "pass": 100.0,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "261-5120-00L": {
+  "title": "Machine Learning for Health Care",
+  "latest": {
+   "session": "S24",
+   "sem": "FS 2024",
+   "n_stats": 11,
+   "n_all": 62,
+   "avg": 5.35,
+   "pass": 100.0,
+   "avg_stats": 5.68,
+   "pass_stats": 100.0
+  },
+  "history": [
+   {
+    "session": "S24",
+    "sem": "FS 2024",
+    "n_stats": 11,
+    "n_all": 62,
+    "avg": 5.35,
+    "pass": 100.0,
+    "avg_stats": 5.68,
+    "pass_stats": 100.0
+   }
+  ],
+  "retake": false
+ },
+ "263-2400-00L": {
+  "title": "Reliable and Trustworthy Artificial Intelligence",
+  "latest": {
+   "session": "W25",
+   "sem": "HS 2024",
+   "n_stats": null,
+   "n_all": 96,
+   "avg": 4.32,
+   "pass": 71.9,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W24",
+    "sem": "HS 2023",
+    "n_stats": 4,
+    "n_all": 137,
+    "avg": 4.29,
+    "pass": 73.0,
+    "avg_stats": null,
+    "pass_stats": null
+   },
+   {
+    "session": "W25",
+    "sem": "HS 2024",
+    "n_stats": null,
+    "n_all": 96,
+    "avg": 4.32,
+    "pass": 71.9,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "263-3210-00L": {
+  "title": "Deep Learning",
+  "latest": {
+   "session": "W26",
+   "sem": "HS 2025",
+   "n_stats": null,
+   "n_all": 150,
+   "avg": 4.84,
+   "pass": 96.7,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W24",
+    "sem": "HS 2023",
+    "n_stats": 6,
+    "n_all": 164,
+    "avg": 5.12,
+    "pass": 94.5,
+    "avg_stats": null,
+    "pass_stats": null
+   },
+   {
+    "session": "W25",
+    "sem": "HS 2024",
+    "n_stats": 13,
+    "n_all": 222,
+    "avg": 5.18,
+    "pass": 96.4,
+    "avg_stats": 5.29,
+    "pass_stats": 100.0
+   },
+   {
+    "session": "W26",
+    "sem": "HS 2025",
+    "n_stats": null,
+    "n_all": 150,
+    "avg": 4.84,
+    "pass": 96.7,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "263-4511-00L": {
+  "title": "Projects in Topological Data Analysis",
+  "latest": {
+   "session": "W24",
+   "sem": "HS 2023",
+   "n_stats": 1,
+   "n_all": 6,
+   "avg": null,
+   "pass": null,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W24",
+    "sem": "HS 2023",
+    "n_stats": 1,
+    "n_all": 6,
+    "avg": null,
+    "pass": null,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "263-4658-00L": {
+  "title": "Privacy Enhancing Technologies",
+  "latest": {
+   "session": "W25",
+   "sem": "HS 2024",
+   "n_stats": null,
+   "n_all": 74,
+   "avg": 5.31,
+   "pass": 97.3,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W25",
+    "sem": "HS 2024",
+    "n_stats": null,
+    "n_all": 74,
+    "avg": 5.31,
+    "pass": 97.3,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "263-5052-00L": {
+  "title": "Interactive Machine Learning: Visualization &",
+  "latest": {
+   "session": "S24",
+   "sem": "FS 2024",
+   "n_stats": 1,
+   "n_all": 61,
+   "avg": 5.38,
+   "pass": 95.1,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "S24",
+    "sem": "FS 2024",
+    "n_stats": 1,
+    "n_all": 61,
+    "avg": 5.38,
+    "pass": 95.1,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "263-5056-00L": {
+  "title": "Applications of Deep Learning on Graphs",
+  "latest": {
+   "session": "W24",
+   "sem": "HS 2023",
+   "n_stats": 2,
+   "n_all": 34,
+   "avg": 5.51,
+   "pass": 100.0,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W24",
+    "sem": "HS 2023",
+    "n_stats": 2,
+    "n_all": 34,
+    "avg": 5.51,
+    "pass": 100.0,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "263-5058-00L": {
+  "title": "Technology and Entrepreneurship",
+  "latest": {
+   "session": "W26",
+   "sem": "HS 2025",
+   "n_stats": null,
+   "n_all": 26,
+   "avg": 5.25,
+   "pass": 100.0,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W26",
+    "sem": "HS 2025",
+    "n_stats": null,
+    "n_all": 26,
+    "avg": 5.25,
+    "pass": 100.0,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "263-5210-00L": {
+  "title": "Probabilistic Artificial Intelligence",
+  "latest": {
+   "session": "W26",
+   "sem": "HS 2025",
+   "n_stats": 25,
+   "n_all": 684,
+   "avg": 4.84,
+   "pass": 92.4,
+   "avg_stats": 5.09,
+   "pass_stats": 100.0
+  },
+  "history": [
+   {
+    "session": "W24",
+    "sem": "HS 2023",
+    "n_stats": 23,
+    "n_all": 627,
+    "avg": 4.97,
+    "pass": 94.9,
+    "avg_stats": 5.04,
+    "pass_stats": 100.0
+   },
+   {
+    "session": "W25",
+    "sem": "HS 2024",
+    "n_stats": 19,
+    "n_all": 555,
+    "avg": 4.86,
+    "pass": 93.7,
+    "avg_stats": 5.04,
+    "pass_stats": 100.0
+   },
+   {
+    "session": "W26",
+    "sem": "HS 2025",
+    "n_stats": 25,
+    "n_all": 684,
+    "avg": 4.84,
+    "pass": 92.4,
+    "avg_stats": 5.09,
+    "pass_stats": 100.0
+   }
+  ],
+  "retake": false
+ },
+ "263-5255-00L": {
+  "title": "Foundations of Reinforcement Learning",
+  "latest": {
+   "session": "S24",
+   "sem": "FS 2024",
+   "n_stats": 5,
+   "n_all": 114,
+   "avg": 5.04,
+   "pass": 91.2,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "S24",
+    "sem": "FS 2024",
+    "n_stats": 5,
+    "n_all": 114,
+    "avg": 5.04,
+    "pass": 91.2,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "263-5300-00L": {
+  "title": "Guarantees for Machine Learning",
+  "latest": {
+   "session": "W26",
+   "sem": "HS 2025",
+   "n_stats": null,
+   "n_all": 23,
+   "avg": 5.59,
+   "pass": 82.6,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W24",
+    "sem": "HS 2023",
+    "n_stats": 5,
+    "n_all": 15,
+    "avg": 5.48,
+    "pass": 100.0,
+    "avg_stats": null,
+    "pass_stats": null
+   },
+   {
+    "session": "W26",
+    "sem": "HS 2025",
+    "n_stats": null,
+    "n_all": 23,
+    "avg": 5.59,
+    "pass": 82.6,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "263-5351-00L": {
+  "title": "Machine Learning for Genomics",
+  "latest": {
+   "session": "W26",
+   "sem": "HS 2025",
+   "n_stats": null,
+   "n_all": 59,
+   "avg": 5.19,
+   "pass": 94.9,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W25",
+    "sem": "HS 2024",
+    "n_stats": null,
+    "n_all": 51,
+    "avg": 5.14,
+    "pass": 92.2,
+    "avg_stats": null,
+    "pass_stats": null
+   },
+   {
+    "session": "W26",
+    "sem": "HS 2025",
+    "n_stats": null,
+    "n_all": 59,
+    "avg": 5.19,
+    "pass": 94.9,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "263-5354-00L": {
+  "title": "Large Language Models",
+  "latest": {
+   "session": "S24",
+   "sem": "FS 2024",
+   "n_stats": 3,
+   "n_all": 177,
+   "avg": 5.04,
+   "pass": 92.7,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "S24",
+    "sem": "FS 2024",
+    "n_stats": 3,
+    "n_all": 177,
+    "avg": 5.04,
+    "pass": 92.7,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "263-5902-00L": {
+  "title": "Computer Vision",
+  "latest": {
+   "session": "W25",
+   "sem": "HS 2024",
+   "n_stats": null,
+   "n_all": 144,
+   "avg": 5.1,
+   "pass": 96.5,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W25",
+    "sem": "HS 2024",
+    "n_stats": null,
+    "n_all": 144,
+    "avg": 5.1,
+    "pass": 96.5,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "351-1158-00L": {
+  "title": "Ökonomie",
+  "latest": {
+   "session": "W26",
+   "sem": "HS 2025",
+   "n_stats": null,
+   "n_all": 348,
+   "avg": 4.93,
+   "pass": 85.9,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W26",
+    "sem": "HS 2025",
+    "n_stats": null,
+    "n_all": 348,
+    "avg": 4.93,
+    "pass": 85.9,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "363-0503-00L": {
+  "title": "Principles of Microeconomics",
+  "latest": {
+   "session": "W24",
+   "sem": "HS 2023",
+   "n_stats": 4,
+   "n_all": 264,
+   "avg": 4.46,
+   "pass": 83.7,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W24",
+    "sem": "HS 2023",
+    "n_stats": 4,
+    "n_all": 264,
+    "avg": 4.46,
+    "pass": 83.7,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "363-0561-00L": {
+  "title": "Climate Economics and Finance",
+  "latest": {
+   "session": "S24",
+   "sem": "FS 2024",
+   "n_stats": 1,
+   "n_all": 281,
+   "avg": 4.91,
+   "pass": 80.4,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "S24",
+    "sem": "FS 2024",
+    "n_stats": 1,
+    "n_all": 281,
+    "avg": 4.91,
+    "pass": 80.4,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "363-0565-00L": {
+  "title": "Principles of Macroeconomics",
+  "latest": {
+   "session": "W26",
+   "sem": "HS 2025",
+   "n_stats": null,
+   "n_all": 759,
+   "avg": 4.87,
+   "pass": 82.3,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W24",
+    "sem": "HS 2023",
+    "n_stats": 1,
+    "n_all": 525,
+    "avg": 4.73,
+    "pass": 82.3,
+    "avg_stats": null,
+    "pass_stats": null
+   },
+   {
+    "session": "W25",
+    "sem": "HS 2024",
+    "n_stats": null,
+    "n_all": 657,
+    "avg": 4.8,
+    "pass": 82.0,
+    "avg_stats": null,
+    "pass_stats": null
+   },
+   {
+    "session": "W26",
+    "sem": "HS 2025",
+    "n_stats": null,
+    "n_all": 759,
+    "avg": 4.87,
+    "pass": 82.3,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "363-0790-00L": {
+  "title": "Technology Entrepreneurship",
+  "latest": {
+   "session": "W25",
+   "sem": "HS 2024",
+   "n_stats": null,
+   "n_all": 200,
+   "avg": 5.28,
+   "pass": 97.5,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W25",
+    "sem": "HS 2024",
+    "n_stats": null,
+    "n_all": 200,
+    "avg": 5.28,
+    "pass": 97.5,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "363-1017-00L": {
+  "title": "Risk and Insurance Economics",
+  "latest": {
+   "session": "W25",
+   "sem": "HS 2024",
+   "n_stats": null,
+   "n_all": 105,
+   "avg": 5.43,
+   "pass": 99.0,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W25",
+    "sem": "HS 2024",
+    "n_stats": null,
+    "n_all": 105,
+    "avg": 5.43,
+    "pass": 99.0,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "363-1106-00L": {
+  "title": "The Economics of Climate Change",
+  "latest": {
+   "session": "W26",
+   "sem": "HS 2025",
+   "n_stats": null,
+   "n_all": 20,
+   "avg": 5.13,
+   "pass": 100.0,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W26",
+    "sem": "HS 2025",
+    "n_stats": null,
+    "n_all": 20,
+    "avg": 5.13,
+    "pass": 100.0,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "363-1200-00L": {
+  "title": "Economics for Actuaries",
+  "latest": {
+   "session": "W26",
+   "sem": "HS 2025",
+   "n_stats": null,
+   "n_all": 20,
+   "avg": 5.3,
+   "pass": 100.0,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W26",
+    "sem": "HS 2025",
+    "n_stats": null,
+    "n_all": 20,
+    "avg": 5.3,
+    "pass": 100.0,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "401-0624-00L": {
+  "title": "Mathematik IV: Statistik",
+  "latest": {
+   "session": "W26",
+   "sem": "HS 2025",
+   "n_stats": null,
+   "n_all": 164,
+   "avg": 4.98,
+   "pass": 90.9,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W24",
+    "sem": "HS 2023",
+    "n_stats": null,
+    "n_all": 133,
+    "avg": 4.76,
+    "pass": 84.2,
+    "avg_stats": null,
+    "pass_stats": null
+   },
+   {
+    "session": "W25",
+    "sem": "HS 2024",
+    "n_stats": null,
+    "n_all": 213,
+    "avg": 4.55,
+    "pass": 84.5,
+    "avg_stats": null,
+    "pass_stats": null
+   },
+   {
+    "session": "W26",
+    "sem": "HS 2025",
+    "n_stats": null,
+    "n_all": 164,
+    "avg": 4.98,
+    "pass": 90.9,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "401-0625-01L": {
+  "title": "Applied Analysis of Variance and Experimental",
+  "latest": {
+   "session": "W26",
+   "sem": "HS 2025",
+   "n_stats": 39,
+   "n_all": 111,
+   "avg": 4.88,
+   "pass": 91.0,
+   "avg_stats": 5.24,
+   "pass_stats": 97.4
+  },
+  "history": [
+   {
+    "session": "W24",
+    "sem": "HS 2023",
+    "n_stats": 35,
+    "n_all": 106,
+    "avg": 5.2,
+    "pass": 97.2,
+    "avg_stats": 5.57,
+    "pass_stats": 100.0
+   },
+   {
+    "session": "S24",
+    "sem": "FS 2024",
+    "n_stats": 5,
+    "n_all": 8,
+    "avg": null,
+    "pass": null,
+    "avg_stats": null,
+    "pass_stats": null
+   },
+   {
+    "session": "W25",
+    "sem": "HS 2024",
+    "n_stats": 21,
+    "n_all": 93,
+    "avg": 5.16,
+    "pass": 91.4,
+    "avg_stats": 5.57,
+    "pass_stats": 100.0
+   },
+   {
+    "session": "W26",
+    "sem": "HS 2025",
+    "n_stats": 39,
+    "n_all": 111,
+    "avg": 4.88,
+    "pass": 91.0,
+    "avg_stats": 5.24,
+    "pass_stats": 97.4
+   }
+  ],
+  "retake": false
+ },
+ "401-0627-00L": {
+  "title": "Smoothing and Nonparametric Regression with",
+  "latest": {
+   "session": "S24",
+   "sem": "FS 2024",
+   "n_stats": 1,
+   "n_all": 1,
+   "avg": null,
+   "pass": null,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W24",
+    "sem": "HS 2023",
+    "n_stats": 14,
+    "n_all": 17,
+    "avg": 5.82,
+    "pass": 100.0,
+    "avg_stats": 5.8,
+    "pass_stats": 100.0
+   },
+   {
+    "session": "S24",
+    "sem": "FS 2024",
+    "n_stats": 1,
+    "n_all": 1,
+    "avg": null,
+    "pass": null,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": true
+ },
+ "401-2000-00L": {
+  "title": "Scientific Works in Mathematics",
+  "latest": {
+   "session": "W26",
+   "sem": "HS 2025",
+   "n_stats": 39,
+   "n_all": 215,
+   "avg": null,
+   "pass": 100.0,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W24",
+    "sem": "HS 2023",
+    "n_stats": 43,
+    "n_all": 234,
+    "avg": null,
+    "pass": 100.0,
+    "avg_stats": null,
+    "pass_stats": null
+   },
+   {
+    "session": "S24",
+    "sem": "FS 2024",
+    "n_stats": 3,
+    "n_all": 44,
+    "avg": null,
+    "pass": 100.0,
+    "avg_stats": null,
+    "pass_stats": null
+   },
+   {
+    "session": "W25",
+    "sem": "HS 2024",
+    "n_stats": 40,
+    "n_all": 218,
+    "avg": null,
+    "pass": 100.0,
+    "avg_stats": null,
+    "pass_stats": 100.0
+   },
+   {
+    "session": "W26",
+    "sem": "HS 2025",
+    "n_stats": 39,
+    "n_all": 215,
+    "avg": null,
+    "pass": 100.0,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "401-2283-00L": {
+  "title": "Analysis III (Measure Theory)",
+  "latest": {
+   "session": "W25",
+   "sem": "HS 2024",
+   "n_stats": null,
+   "n_all": 11,
+   "avg": 5.39,
+   "pass": 90.9,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "S24",
+    "sem": "FS 2024",
+    "n_stats": 1,
+    "n_all": 5,
+    "avg": null,
+    "pass": null,
+    "avg_stats": null,
+    "pass_stats": null
+   },
+   {
+    "session": "W25",
+    "sem": "HS 2024",
+    "n_stats": null,
+    "n_all": 11,
+    "avg": 5.39,
+    "pass": 90.9,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "401-2604-00L": {
+  "title": "Wahrscheinlichkeit und Statistik",
+  "latest": {
+   "session": "W26",
+   "sem": "HS 2025",
+   "n_stats": null,
+   "n_all": 11,
+   "avg": 4.07,
+   "pass": 72.7,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "S24",
+    "sem": "FS 2024",
+    "n_stats": null,
+    "n_all": 137,
+    "avg": 4.86,
+    "pass": 90.5,
+    "avg_stats": null,
+    "pass_stats": null
+   },
+   {
+    "session": "W26",
+    "sem": "HS 2025",
+    "n_stats": null,
+    "n_all": 11,
+    "avg": 4.07,
+    "pass": 72.7,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": true
+ },
+ "401-3461-00L": {
+  "title": "Functional Analysis I",
+  "latest": {
+   "session": "W26",
+   "sem": "HS 2025",
+   "n_stats": null,
+   "n_all": 74,
+   "avg": 4.36,
+   "pass": 60.8,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W26",
+    "sem": "HS 2025",
+    "n_stats": null,
+    "n_all": 74,
+    "avg": 4.36,
+    "pass": 60.8,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "401-3462-00L": {
+  "title": "Functional Analysis II",
+  "latest": {
+   "session": "W24",
+   "sem": "HS 2023",
+   "n_stats": 1,
+   "n_all": 7,
+   "avg": null,
+   "pass": null,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W24",
+    "sem": "HS 2023",
+    "n_stats": 1,
+    "n_all": 7,
+    "avg": null,
+    "pass": null,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "401-3601-00L": {
+  "title": "Probability Theory",
+  "latest": {
+   "session": "W26",
+   "sem": "HS 2025",
+   "n_stats": null,
+   "n_all": 139,
+   "avg": 4.89,
+   "pass": 90.6,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W24",
+    "sem": "HS 2023",
+    "n_stats": 2,
+    "n_all": 88,
+    "avg": 4.78,
+    "pass": 84.1,
+    "avg_stats": null,
+    "pass_stats": null
+   },
+   {
+    "session": "W25",
+    "sem": "HS 2024",
+    "n_stats": null,
+    "n_all": 115,
+    "avg": 4.89,
+    "pass": 91.3,
+    "avg_stats": null,
+    "pass_stats": null
+   },
+   {
+    "session": "W26",
+    "sem": "HS 2025",
+    "n_stats": null,
+    "n_all": 139,
+    "avg": 4.89,
+    "pass": 90.6,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "401-3603-60L": {
+  "title": "Large Deviation Theory",
+  "latest": {
+   "session": "W26",
+   "sem": "HS 2025",
+   "n_stats": null,
+   "n_all": 16,
+   "avg": 5.5,
+   "pass": 81.3,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W26",
+    "sem": "HS 2025",
+    "n_stats": null,
+    "n_all": 16,
+    "avg": 5.5,
+    "pass": 81.3,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "401-3612-00L": {
+  "title": "Stochastic Simulation",
+  "latest": {
+   "session": "W25",
+   "sem": "HS 2024",
+   "n_stats": 13,
+   "n_all": 34,
+   "avg": 5.08,
+   "pass": 85.3,
+   "avg_stats": 5.27,
+   "pass_stats": 100.0
+  },
+  "history": [
+   {
+    "session": "W25",
+    "sem": "HS 2024",
+    "n_stats": 13,
+    "n_all": 34,
+    "avg": 5.08,
+    "pass": 85.3,
+    "avg_stats": 5.27,
+    "pass_stats": 100.0
+   }
+  ],
+  "retake": false
+ },
+ "401-3620-20L": {
+  "title": "Student Seminar in Statistics: Inference in Some Non-Standard Problems",
+  "latest": {
+   "session": "W24",
+   "sem": "HS 2023",
+   "n_stats": 3,
+   "n_all": 23,
+   "avg": null,
+   "pass": 100.0,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W24",
+    "sem": "HS 2023",
+    "n_stats": 3,
+    "n_all": 23,
+    "avg": null,
+    "pass": 100.0,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "401-3620-24L": {
+  "title": "Student Seminar in Statistics: E-Values and Anytime-Valid Inference",
+  "latest": {
+   "session": "S24",
+   "sem": "FS 2024",
+   "n_stats": 4,
+   "n_all": 32,
+   "avg": null,
+   "pass": 100.0,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "S24",
+    "sem": "FS 2024",
+    "n_stats": 4,
+    "n_all": 32,
+    "avg": null,
+    "pass": 100.0,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "401-3620-75L": {
+  "title": "Student Seminar in Statistics: Representation Learning",
+  "latest": {
+   "session": "W26",
+   "sem": "HS 2025",
+   "n_stats": null,
+   "n_all": 33,
+   "avg": null,
+   "pass": 100.0,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W26",
+    "sem": "HS 2025",
+    "n_stats": null,
+    "n_all": 33,
+    "avg": null,
+    "pass": 100.0,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "401-3621-00L": {
+  "title": "Fundamentals of Mathematical Statistics",
+  "latest": {
+   "session": "W26",
+   "sem": "HS 2025",
+   "n_stats": 28,
+   "n_all": 100,
+   "avg": 4.31,
+   "pass": 66.0,
+   "avg_stats": 4.79,
+   "pass_stats": 89.3
+  },
+  "history": [
+   {
+    "session": "W24",
+    "sem": "HS 2023",
+    "n_stats": 29,
+    "n_all": 111,
+    "avg": 5.23,
+    "pass": 92.8,
+    "avg_stats": 5.16,
+    "pass_stats": 89.7
+   },
+   {
+    "session": "S24",
+    "sem": "FS 2024",
+    "n_stats": 4,
+    "n_all": 18,
+    "avg": 4.44,
+    "pass": 66.7,
+    "avg_stats": null,
+    "pass_stats": null
+   },
+   {
+    "session": "W25",
+    "sem": "HS 2024",
+    "n_stats": 37,
+    "n_all": 115,
+    "avg": 4.26,
+    "pass": 63.5,
+    "avg_stats": 4.59,
+    "pass_stats": 75.7
+   },
+   {
+    "session": "W26",
+    "sem": "HS 2025",
+    "n_stats": 28,
+    "n_all": 100,
+    "avg": 4.31,
+    "pass": 66.0,
+    "avg_stats": 4.79,
+    "pass_stats": 89.3
+   }
+  ],
+  "retake": false
+ },
+ "401-3622-00L": {
+  "title": "Statistical Modelling",
+  "latest": {
+   "session": "W26",
+   "sem": "HS 2025",
+   "n_stats": 44,
+   "n_all": 106,
+   "avg": 5.31,
+   "pass": 94.3,
+   "avg_stats": 5.48,
+   "pass_stats": 100.0
+  },
+  "history": [
+   {
+    "session": "W24",
+    "sem": "HS 2023",
+    "n_stats": 36,
+    "n_all": 99,
+    "avg": 5.22,
+    "pass": 91.9,
+    "avg_stats": 5.51,
+    "pass_stats": 100.0
+   },
+   {
+    "session": "S24",
+    "sem": "FS 2024",
+    "n_stats": 2,
+    "n_all": 10,
+    "avg": 4.4,
+    "pass": 70.0,
+    "avg_stats": null,
+    "pass_stats": null
+   },
+   {
+    "session": "W25",
+    "sem": "HS 2024",
+    "n_stats": 30,
+    "n_all": 104,
+    "avg": 5.01,
+    "pass": 93.3,
+    "avg_stats": 5.37,
+    "pass_stats": 100.0
+   },
+   {
+    "session": "W26",
+    "sem": "HS 2025",
+    "n_stats": 44,
+    "n_all": 106,
+    "avg": 5.31,
+    "pass": 94.3,
+    "avg_stats": 5.48,
+    "pass_stats": 100.0
+   }
+  ],
+  "retake": false
+ },
+ "401-3627-00L": {
+  "title": "High-Dimensional Statistics",
+  "latest": {
+   "session": "S25",
+   "sem": "FS 2025",
+   "n_stats": 28,
+   "n_all": 69,
+   "avg": 5.12,
+   "pass": 91.3,
+   "avg_stats": 5.22,
+   "pass_stats": 100.0
+  },
+  "history": [
+   {
+    "session": "W24",
+    "sem": "HS 2023",
+    "n_stats": 24,
+    "n_all": 56,
+    "avg": 5.26,
+    "pass": 92.9,
+    "avg_stats": 5.36,
+    "pass_stats": 100.0
+   },
+   {
+    "session": "S24",
+    "sem": "FS 2024",
+    "n_stats": 1,
+    "n_all": 5,
+    "avg": null,
+    "pass": null,
+    "avg_stats": null,
+    "pass_stats": null
+   },
+   {
+    "session": "S25",
+    "sem": "FS 2025",
+    "n_stats": 28,
+    "n_all": 69,
+    "avg": 5.12,
+    "pass": 91.3,
+    "avg_stats": 5.22,
+    "pass_stats": 100.0
+   }
+  ],
+  "retake": false
+ },
+ "401-3628-14L": {
+  "title": "Bayesian Statistics",
+  "latest": {
+   "session": "W26",
+   "sem": "HS 2025",
+   "n_stats": 16,
+   "n_all": 57,
+   "avg": 5.02,
+   "pass": 86.0,
+   "avg_stats": 5.36,
+   "pass_stats": 100.0
+  },
+  "history": [
+   {
+    "session": "W24",
+    "sem": "HS 2023",
+    "n_stats": 19,
+    "n_all": 53,
+    "avg": 5.02,
+    "pass": 86.8,
+    "avg_stats": 5.37,
+    "pass_stats": 89.5
+   },
+   {
+    "session": "S24",
+    "sem": "FS 2024",
+    "n_stats": 2,
+    "n_all": 5,
+    "avg": null,
+    "pass": null,
+    "avg_stats": null,
+    "pass_stats": null
+   },
+   {
+    "session": "W26",
+    "sem": "HS 2025",
+    "n_stats": 16,
+    "n_all": 57,
+    "avg": 5.02,
+    "pass": 86.0,
+    "avg_stats": 5.36,
+    "pass_stats": 100.0
+   }
+  ],
+  "retake": false
+ },
+ "401-3629-00L": {
+  "title": "Quantitative Risk Management",
+  "latest": {
+   "session": "S24",
+   "sem": "FS 2024",
+   "n_stats": 5,
+   "n_all": 109,
+   "avg": 4.27,
+   "pass": 70.6,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "S24",
+    "sem": "FS 2024",
+    "n_stats": 5,
+    "n_all": 109,
+    "avg": 4.27,
+    "pass": 70.6,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "401-3630-04L": {
+  "title": "Semesterarbeit",
+  "latest": {
+   "session": "S24",
+   "sem": "FS 2024",
+   "n_stats": 3,
+   "n_all": 3,
+   "avg": null,
+   "pass": null,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W24",
+    "sem": "HS 2023",
+    "n_stats": 2,
+    "n_all": 2,
+    "avg": null,
+    "pass": null,
+    "avg_stats": null,
+    "pass_stats": null
+   },
+   {
+    "session": "S24",
+    "sem": "FS 2024",
+    "n_stats": 3,
+    "n_all": 3,
+    "avg": null,
+    "pass": null,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "401-3630-06L": {
+  "title": "Semesterarbeit",
+  "latest": {
+   "session": "S24",
+   "sem": "FS 2024",
+   "n_stats": 7,
+   "n_all": 7,
+   "avg": null,
+   "pass": null,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W24",
+    "sem": "HS 2023",
+    "n_stats": 3,
+    "n_all": 3,
+    "avg": null,
+    "pass": null,
+    "avg_stats": null,
+    "pass_stats": null
+   },
+   {
+    "session": "S24",
+    "sem": "FS 2024",
+    "n_stats": 7,
+    "n_all": 7,
+    "avg": null,
+    "pass": null,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "401-3632-00L": {
+  "title": "Computational Statistics",
+  "latest": {
+   "session": "S25",
+   "sem": "FS 2025",
+   "n_stats": 23,
+   "n_all": 171,
+   "avg": 4.81,
+   "pass": 84.2,
+   "avg_stats": 5.24,
+   "pass_stats": 95.7
+  },
+  "history": [
+   {
+    "session": "W24",
+    "sem": "HS 2023",
+    "n_stats": 2,
+    "n_all": 17,
+    "avg": 4.27,
+    "pass": 70.6,
+    "avg_stats": null,
+    "pass_stats": null
+   },
+   {
+    "session": "S24",
+    "sem": "FS 2024",
+    "n_stats": 30,
+    "n_all": 163,
+    "avg": 4.76,
+    "pass": 89.6,
+    "avg_stats": 4.92,
+    "pass_stats": 93.3
+   },
+   {
+    "session": "W25",
+    "sem": "HS 2024",
+    "n_stats": null,
+    "n_all": 13,
+    "avg": 5.25,
+    "pass": 69.2,
+    "avg_stats": null,
+    "pass_stats": null
+   },
+   {
+    "session": "S25",
+    "sem": "FS 2025",
+    "n_stats": 23,
+    "n_all": 171,
+    "avg": 4.81,
+    "pass": 84.2,
+    "avg_stats": 5.24,
+    "pass_stats": 95.7
+   }
+  ],
+  "retake": false
+ },
+ "401-3823-74L": {
+  "title": "Markov Processes",
+  "latest": {
+   "session": "W25",
+   "sem": "HS 2024",
+   "n_stats": null,
+   "n_all": 46,
+   "avg": 5.62,
+   "pass": 97.8,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W25",
+    "sem": "HS 2024",
+    "n_stats": null,
+    "n_all": 46,
+    "avg": 5.62,
+    "pass": 97.8,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "401-3902-21L": {
+  "title": "Network & Integer Optimization",
+  "latest": {
+   "session": "S24",
+   "sem": "FS 2024",
+   "n_stats": 2,
+   "n_all": 30,
+   "avg": 5.08,
+   "pass": 80.0,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "S24",
+    "sem": "FS 2024",
+    "n_stats": 2,
+    "n_all": 30,
+    "avg": 5.08,
+    "pass": 80.0,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "401-3904-22L": {
+  "title": "Convex Optimization",
+  "latest": {
+   "session": "S24",
+   "sem": "FS 2024",
+   "n_stats": 2,
+   "n_all": 24,
+   "avg": 4.55,
+   "pass": 75.0,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "S24",
+    "sem": "FS 2024",
+    "n_stats": 2,
+    "n_all": 24,
+    "avg": 4.55,
+    "pass": 75.0,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "401-3913-01L": {
+  "title": "Mathematical Foundations for Finance",
+  "latest": {
+   "session": "W26",
+   "sem": "HS 2025",
+   "n_stats": null,
+   "n_all": 98,
+   "avg": 4.15,
+   "pass": 59.2,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W25",
+    "sem": "HS 2024",
+    "n_stats": null,
+    "n_all": 102,
+    "avg": 4.17,
+    "pass": 62.7,
+    "avg_stats": null,
+    "pass_stats": null
+   },
+   {
+    "session": "W26",
+    "sem": "HS 2025",
+    "n_stats": null,
+    "n_all": 98,
+    "avg": 4.15,
+    "pass": 59.2,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "401-3915-73L": {
+  "title": "Machine Learning in Finance and Insurance",
+  "latest": {
+   "session": "W26",
+   "sem": "HS 2025",
+   "n_stats": null,
+   "n_all": 110,
+   "avg": 4.64,
+   "pass": 90.0,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W25",
+    "sem": "HS 2024",
+    "n_stats": null,
+    "n_all": 81,
+    "avg": 5.08,
+    "pass": 97.5,
+    "avg_stats": null,
+    "pass_stats": null
+   },
+   {
+    "session": "W26",
+    "sem": "HS 2025",
+    "n_stats": null,
+    "n_all": 110,
+    "avg": 4.64,
+    "pass": 90.0,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "401-3925-00L": {
+  "title": "Non-Life Insurance: Mathematics and Statistics",
+  "latest": {
+   "session": "W26",
+   "sem": "HS 2025",
+   "n_stats": null,
+   "n_all": 75,
+   "avg": 4.94,
+   "pass": 81.3,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W26",
+    "sem": "HS 2025",
+    "n_stats": null,
+    "n_all": 75,
+    "avg": 4.94,
+    "pass": 81.3,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "401-3927-00L": {
+  "title": "Mathematical Modelling in Life Insurance",
+  "latest": {
+   "session": "W26",
+   "sem": "HS 2025",
+   "n_stats": null,
+   "n_all": 23,
+   "avg": 4.86,
+   "pass": 82.6,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W26",
+    "sem": "HS 2025",
+    "n_stats": null,
+    "n_all": 23,
+    "avg": 4.86,
+    "pass": 82.6,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "401-3928-00L": {
+  "title": "Reinsurance Analytics",
+  "latest": {
+   "session": "S24",
+   "sem": "FS 2024",
+   "n_stats": 1,
+   "n_all": 41,
+   "avg": 5.29,
+   "pass": 92.7,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "S24",
+    "sem": "FS 2024",
+    "n_stats": 1,
+    "n_all": 41,
+    "avg": 5.29,
+    "pass": 92.7,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "401-3929-00L": {
+  "title": "Financial Risk Management in Social and Pension Insurance",
+  "latest": {
+   "session": "W26",
+   "sem": "HS 2025",
+   "n_stats": null,
+   "n_all": 28,
+   "avg": 5.23,
+   "pass": 89.3,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W26",
+    "sem": "HS 2025",
+    "n_stats": null,
+    "n_all": 28,
+    "avg": 5.23,
+    "pass": 89.3,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "401-3932-19L": {
+  "title": "Mathematics for New Technologies in Finance",
+  "latest": {
+   "session": "S24",
+   "sem": "FS 2024",
+   "n_stats": 1,
+   "n_all": 45,
+   "avg": 5.02,
+   "pass": 82.2,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "S24",
+    "sem": "FS 2024",
+    "n_stats": 1,
+    "n_all": 45,
+    "avg": 5.02,
+    "pass": 82.2,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "401-4614-24L": {
+  "title": "Condensation Phenomena in Random Trees",
+  "latest": {
+   "session": "S24",
+   "sem": "FS 2024",
+   "n_stats": 1,
+   "n_all": 5,
+   "avg": null,
+   "pass": null,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "S24",
+    "sem": "FS 2024",
+    "n_stats": 1,
+    "n_all": 5,
+    "avg": null,
+    "pass": null,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "401-4620-00L": {
+  "title": "Statistics Lab",
+  "latest": {
+   "session": "S25",
+   "sem": "FS 2025",
+   "n_stats": 24,
+   "n_all": 24,
+   "avg": null,
+   "pass": 100.0,
+   "avg_stats": null,
+   "pass_stats": 100.0
+  },
+  "history": [
+   {
+    "session": "S24",
+    "sem": "FS 2024",
+    "n_stats": 29,
+    "n_all": 29,
+    "avg": null,
+    "pass": 100.0,
+    "avg_stats": null,
+    "pass_stats": null
+   },
+   {
+    "session": "S25",
+    "sem": "FS 2025",
+    "n_stats": 24,
+    "n_all": 24,
+    "avg": null,
+    "pass": 100.0,
+    "avg_stats": null,
+    "pass_stats": 100.0
+   }
+  ],
+  "retake": false
+ },
+ "401-4623-00L": {
+  "title": "Time Series Analysis",
+  "latest": {
+   "session": "W25",
+   "sem": "HS 2024",
+   "n_stats": 33,
+   "n_all": 143,
+   "avg": 5.26,
+   "pass": 93.7,
+   "avg_stats": 5.64,
+   "pass_stats": 100.0
+  },
+  "history": [
+   {
+    "session": "W25",
+    "sem": "HS 2024",
+    "n_stats": 33,
+    "n_all": 143,
+    "avg": 5.26,
+    "pass": 93.7,
+    "avg_stats": 5.64,
+    "pass_stats": 100.0
+   }
+  ],
+  "retake": false
+ },
+ "401-4627-00L": {
+  "title": "Empirical Process Theory and Applications",
+  "latest": {
+   "session": "W26",
+   "sem": "HS 2025",
+   "n_stats": null,
+   "n_all": 10,
+   "avg": 5.63,
+   "pass": 100.0,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W26",
+    "sem": "HS 2025",
+    "n_stats": null,
+    "n_all": 10,
+    "avg": 5.63,
+    "pass": 100.0,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "401-4632-15L": {
+  "title": "Causality",
+  "latest": {
+   "session": "W26",
+   "sem": "HS 2025",
+   "n_stats": 24,
+   "n_all": 89,
+   "avg": 4.95,
+   "pass": 91.0,
+   "avg_stats": 4.81,
+   "pass_stats": 95.8
+  },
+  "history": [
+   {
+    "session": "W24",
+    "sem": "HS 2023",
+    "n_stats": 17,
+    "n_all": 54,
+    "avg": 5.46,
+    "pass": 94.4,
+    "avg_stats": 5.38,
+    "pass_stats": 100.0
+   },
+   {
+    "session": "S24",
+    "sem": "FS 2024",
+    "n_stats": 5,
+    "n_all": 8,
+    "avg": null,
+    "pass": null,
+    "avg_stats": null,
+    "pass_stats": null
+   },
+   {
+    "session": "W25",
+    "sem": "HS 2024",
+    "n_stats": 36,
+    "n_all": 70,
+    "avg": 5.29,
+    "pass": 95.7,
+    "avg_stats": 5.35,
+    "pass_stats": 100.0
+   },
+   {
+    "session": "W26",
+    "sem": "HS 2025",
+    "n_stats": 24,
+    "n_all": 89,
+    "avg": 4.95,
+    "pass": 91.0,
+    "avg_stats": 4.81,
+    "pass_stats": 95.8
+   }
+  ],
+  "retake": false
+ },
+ "401-4633-00L": {
+  "title": "Data Analytics in Organisations and Business",
+  "latest": {
+   "session": "W26",
+   "sem": "HS 2025",
+   "n_stats": null,
+   "n_all": 30,
+   "avg": 5.29,
+   "pass": 96.7,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W24",
+    "sem": "HS 2023",
+    "n_stats": 11,
+    "n_all": 36,
+    "avg": 5.39,
+    "pass": 86.1,
+    "avg_stats": 5.48,
+    "pass_stats": 100.0
+   },
+   {
+    "session": "W25",
+    "sem": "HS 2024",
+    "n_stats": null,
+    "n_all": 37,
+    "avg": 5.31,
+    "pass": 91.9,
+    "avg_stats": null,
+    "pass_stats": null
+   },
+   {
+    "session": "W26",
+    "sem": "HS 2025",
+    "n_stats": null,
+    "n_all": 30,
+    "avg": 5.29,
+    "pass": 96.7,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "401-4634-24L": {
+  "title": "Diffusion Models, Sampling and Stochastic Localization",
+  "latest": {
+   "session": "S24",
+   "sem": "FS 2024",
+   "n_stats": 9,
+   "n_all": 53,
+   "avg": null,
+   "pass": null,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "S24",
+    "sem": "FS 2024",
+    "n_stats": 9,
+    "n_all": 53,
+    "avg": null,
+    "pass": null,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "401-4656-21L": {
+  "title": "AI in the Sciences and Engineering",
+  "latest": {
+   "session": "W26",
+   "sem": "HS 2025",
+   "n_stats": null,
+   "n_all": 104,
+   "avg": 5.54,
+   "pass": 100.0,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "S24",
+    "sem": "FS 2024",
+    "n_stats": 2,
+    "n_all": 93,
+    "avg": null,
+    "pass": null,
+    "avg_stats": null,
+    "pass_stats": null
+   },
+   {
+    "session": "W25",
+    "sem": "HS 2024",
+    "n_stats": null,
+    "n_all": 67,
+    "avg": 5.72,
+    "pass": 100.0,
+    "avg_stats": null,
+    "pass_stats": null
+   },
+   {
+    "session": "W26",
+    "sem": "HS 2025",
+    "n_stats": null,
+    "n_all": 104,
+    "avg": 5.54,
+    "pass": 100.0,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "401-4944-20L": {
+  "title": "Mathematics of Data Science",
+  "latest": {
+   "session": "W26",
+   "sem": "HS 2025",
+   "n_stats": null,
+   "n_all": 73,
+   "avg": 4.81,
+   "pass": 90.4,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W24",
+    "sem": "HS 2023",
+    "n_stats": 3,
+    "n_all": 41,
+    "avg": 4.56,
+    "pass": 80.5,
+    "avg_stats": null,
+    "pass_stats": null
+   },
+   {
+    "session": "W25",
+    "sem": "HS 2024",
+    "n_stats": null,
+    "n_all": 67,
+    "avg": 4.73,
+    "pass": 82.1,
+    "avg_stats": null,
+    "pass_stats": null
+   },
+   {
+    "session": "W26",
+    "sem": "HS 2025",
+    "n_stats": null,
+    "n_all": 73,
+    "avg": 4.81,
+    "pass": 90.4,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "401-4990-02L": {
+  "title": "Master's Thesis",
+  "latest": {
+   "session": "S25",
+   "sem": "FS 2025",
+   "n_stats": 11,
+   "n_all": 11,
+   "avg": 5.84,
+   "pass": 100.0,
+   "avg_stats": 5.84,
+   "pass_stats": 100.0
+  },
+  "history": [
+   {
+    "session": "W24",
+    "sem": "HS 2023",
+    "n_stats": 1,
+    "n_all": 1,
+    "avg": null,
+    "pass": null,
+    "avg_stats": null,
+    "pass_stats": null
+   },
+   {
+    "session": "S24",
+    "sem": "FS 2024",
+    "n_stats": 4,
+    "n_all": 4,
+    "avg": null,
+    "pass": null,
+    "avg_stats": null,
+    "pass_stats": null
+   },
+   {
+    "session": "S25",
+    "sem": "FS 2025",
+    "n_stats": 11,
+    "n_all": 11,
+    "avg": 5.84,
+    "pass": 100.0,
+    "avg_stats": 5.84,
+    "pass_stats": 100.0
+   }
+  ],
+  "retake": false
+ },
+ "401-6215-00L": {
+  "title": "Using R for Data Analysis and Graphics (Part I)",
+  "latest": {
+   "session": "W25",
+   "sem": "HS 2024",
+   "n_stats": null,
+   "n_all": 77,
+   "avg": 5.06,
+   "pass": 90.9,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W24",
+    "sem": "HS 2023",
+    "n_stats": 4,
+    "n_all": 125,
+    "avg": 4.77,
+    "pass": 90.4,
+    "avg_stats": null,
+    "pass_stats": null
+   },
+   {
+    "session": "W25",
+    "sem": "HS 2024",
+    "n_stats": null,
+    "n_all": 77,
+    "avg": 5.06,
+    "pass": 90.9,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "401-6217-00L": {
+  "title": "Using R for Data Analysis and Graphics (Part II)",
+  "latest": {
+   "session": "W26",
+   "sem": "HS 2025",
+   "n_stats": null,
+   "n_all": 36,
+   "avg": 4.04,
+   "pass": 58.3,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W24",
+    "sem": "HS 2023",
+    "n_stats": 5,
+    "n_all": 96,
+    "avg": 4.22,
+    "pass": 61.5,
+    "avg_stats": null,
+    "pass_stats": null
+   },
+   {
+    "session": "W25",
+    "sem": "HS 2024",
+    "n_stats": null,
+    "n_all": 56,
+    "avg": 4.23,
+    "pass": 73.2,
+    "avg_stats": null,
+    "pass_stats": null
+   },
+   {
+    "session": "W26",
+    "sem": "HS 2025",
+    "n_stats": null,
+    "n_all": 36,
+    "avg": 4.04,
+    "pass": 58.3,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": true
+ },
+ "401-6282-00L": {
+  "title": "Statistical Analysis of High-Throughput Genomic and Transcriptomic Data",
+  "latest": {
+   "session": "W24",
+   "sem": "HS 2023",
+   "n_stats": 1,
+   "n_all": 29,
+   "avg": 5.33,
+   "pass": 93.1,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W24",
+    "sem": "HS 2023",
+    "n_stats": 1,
+    "n_all": 29,
+    "avg": 5.33,
+    "pass": 93.1,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "401-8618-00L": {
+  "title": "Statistical Methods in Epidemiology (University of Zurich)",
+  "latest": {
+   "session": "S24",
+   "sem": "FS 2024",
+   "n_stats": 4,
+   "n_all": 5,
+   "avg": null,
+   "pass": null,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "S24",
+    "sem": "FS 2024",
+    "n_stats": 4,
+    "n_all": 5,
+    "avg": null,
+    "pass": null,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "401-8623-00L": {
+  "title": "Likelihood Inference (University of Zurich)",
+  "latest": {
+   "session": "W26",
+   "sem": "HS 2025",
+   "n_stats": 24,
+   "n_all": 24,
+   "avg": 5.04,
+   "pass": 91.7,
+   "avg_stats": 5.04,
+   "pass_stats": 91.7
+  },
+  "history": [
+   {
+    "session": "W24",
+    "sem": "HS 2023",
+    "n_stats": 16,
+    "n_all": 17,
+    "avg": 4.53,
+    "pass": 82.4,
+    "avg_stats": 4.53,
+    "pass_stats": 87.5
+   },
+   {
+    "session": "W26",
+    "sem": "HS 2025",
+    "n_stats": 24,
+    "n_all": 24,
+    "avg": 5.04,
+    "pass": 91.7,
+    "avg_stats": 5.04,
+    "pass_stats": 91.7
+   }
+  ],
+  "retake": false
+ },
+ "401-8625-00L": {
+  "title": "Clinical Biostatistics (University of Zurich)",
+  "latest": {
+   "session": "W24",
+   "sem": "HS 2023",
+   "n_stats": 2,
+   "n_all": 3,
+   "avg": null,
+   "pass": null,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W24",
+    "sem": "HS 2023",
+    "n_stats": 2,
+    "n_all": 3,
+    "avg": null,
+    "pass": null,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "401-8628-00L": {
+  "title": "Survival Analysis (University of Zurich)",
+  "latest": {
+   "session": "S24",
+   "sem": "FS 2024",
+   "n_stats": 2,
+   "n_all": 2,
+   "avg": null,
+   "pass": null,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "S24",
+    "sem": "FS 2024",
+    "n_stats": 2,
+    "n_all": 2,
+    "avg": null,
+    "pass": null,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "401-8905-00L": {
+  "title": "Financial Engineering (University of Zurich)",
+  "latest": {
+   "session": "S24",
+   "sem": "FS 2024",
+   "n_stats": 1,
+   "n_all": 16,
+   "avg": 4.08,
+   "pass": 81.3,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "S24",
+    "sem": "FS 2024",
+    "n_stats": 1,
+    "n_all": 16,
+    "avg": 4.08,
+    "pass": 81.3,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "402-0255-00L": {
+  "title": "Einführung in die Festkörperphysik",
+  "latest": {
+   "session": "W26",
+   "sem": "HS 2025",
+   "n_stats": null,
+   "n_all": 111,
+   "avg": 4.88,
+   "pass": 85.6,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W26",
+    "sem": "HS 2025",
+    "n_stats": null,
+    "n_all": 111,
+    "avg": 4.88,
+    "pass": 85.6,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "402-2883-00L": {
+  "title": "Physik III",
+  "latest": {
+   "session": "W26",
+   "sem": "HS 2025",
+   "n_stats": null,
+   "n_all": 251,
+   "avg": 4.57,
+   "pass": 82.1,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W26",
+    "sem": "HS 2025",
+    "n_stats": null,
+    "n_all": 251,
+    "avg": 4.57,
+    "pass": 82.1,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "406-0173-AAL": {
+  "title": "Linear Algebra I and II",
+  "latest": {
+   "session": "W24",
+   "sem": "HS 2023",
+   "n_stats": null,
+   "n_all": 3,
+   "avg": null,
+   "pass": null,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W24",
+    "sem": "HS 2023",
+    "n_stats": null,
+    "n_all": 3,
+    "avg": null,
+    "pass": null,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "406-0243-AAL": {
+  "title": "Analysis I and II",
+  "latest": {
+   "session": "S24",
+   "sem": "FS 2024",
+   "n_stats": null,
+   "n_all": 3,
+   "avg": null,
+   "pass": null,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "S24",
+    "sem": "FS 2024",
+    "n_stats": null,
+    "n_all": 3,
+    "avg": null,
+    "pass": null,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "447-6222-00L": {
+  "title": "Robust and Nonlinear Regression",
+  "latest": {
+   "session": "S24",
+   "sem": "FS 2024",
+   "n_stats": 8,
+   "n_all": 9,
+   "avg": null,
+   "pass": null,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "S24",
+    "sem": "FS 2024",
+    "n_stats": 8,
+    "n_all": 9,
+    "avg": null,
+    "pass": null,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "535-0022-00L": {
+  "title": "Computer-Assisted Drug Design",
+  "latest": {
+   "session": "W25",
+   "sem": "HS 2024",
+   "n_stats": null,
+   "n_all": 32,
+   "avg": 5.09,
+   "pass": 100.0,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W25",
+    "sem": "HS 2024",
+    "n_stats": null,
+    "n_all": 32,
+    "avg": 5.09,
+    "pass": 100.0,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "636-0702-00L": {
+  "title": "Statistical Models in Computational Biology",
+  "latest": {
+   "session": "S24",
+   "sem": "FS 2024",
+   "n_stats": 1,
+   "n_all": 28,
+   "avg": 4.87,
+   "pass": 89.3,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "S24",
+    "sem": "FS 2024",
+    "n_stats": 1,
+    "n_all": 28,
+    "avg": 4.87,
+    "pass": 89.3,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "701-0371-00L": {
+  "title": "Ecosystem Conservation and Restoration",
+  "latest": {
+   "session": "W24",
+   "sem": "HS 2023",
+   "n_stats": 1,
+   "n_all": 28,
+   "avg": null,
+   "pass": 96.4,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W24",
+    "sem": "HS 2023",
+    "n_stats": 1,
+    "n_all": 28,
+    "avg": null,
+    "pass": 96.4,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "701-0747-00L": {
+  "title": "Umweltpolitik der Schweiz",
+  "latest": {
+   "session": "W25",
+   "sem": "HS 2024",
+   "n_stats": null,
+   "n_all": 331,
+   "avg": 5.01,
+   "pass": 98.8,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W25",
+    "sem": "HS 2024",
+    "n_stats": null,
+    "n_all": 331,
+    "avg": 5.01,
+    "pass": 98.8,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "701-1226-00L": {
+  "title": "Inter-Annual Phenomena and Their Prediction",
+  "latest": {
+   "session": "S24",
+   "sem": "FS 2024",
+   "n_stats": 1,
+   "n_all": 34,
+   "avg": 4.91,
+   "pass": 85.3,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "S24",
+    "sem": "FS 2024",
+    "n_stats": 1,
+    "n_all": 34,
+    "avg": 4.91,
+    "pass": 85.3,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "701-1253-00L": {
+  "title": "Analysis of Climate and Weather Data",
+  "latest": {
+   "session": "W25",
+   "sem": "HS 2024",
+   "n_stats": null,
+   "n_all": 23,
+   "avg": 4.93,
+   "pass": 82.6,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W24",
+    "sem": "HS 2023",
+    "n_stats": 1,
+    "n_all": 56,
+    "avg": 4.45,
+    "pass": 75.0,
+    "avg_stats": null,
+    "pass_stats": null
+   },
+   {
+    "session": "W25",
+    "sem": "HS 2024",
+    "n_stats": null,
+    "n_all": 23,
+    "avg": 4.93,
+    "pass": 82.6,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "701-1271-00L": {
+  "title": "Statistical Learning for Atmospheric and Climate Science",
+  "latest": {
+   "session": "W26",
+   "sem": "HS 2025",
+   "n_stats": null,
+   "n_all": 26,
+   "avg": 5.38,
+   "pass": 100.0,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W26",
+    "sem": "HS 2025",
+    "n_stats": null,
+    "n_all": 26,
+    "avg": 5.38,
+    "pass": 100.0,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "701-1346-00L": {
+  "title": "Climate Change Mitigation: Carbon Dioxide Removal",
+  "latest": {
+   "session": "W26",
+   "sem": "HS 2025",
+   "n_stats": null,
+   "n_all": 80,
+   "avg": null,
+   "pass": 100.0,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W26",
+    "sem": "HS 2025",
+    "n_stats": null,
+    "n_all": 80,
+    "avg": null,
+    "pass": 100.0,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "851-0020-00L": {
+  "title": "Gender and Science",
+  "latest": {
+   "session": "W26",
+   "sem": "HS 2025",
+   "n_stats": null,
+   "n_all": 22,
+   "avg": 5.61,
+   "pass": 100.0,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W26",
+    "sem": "HS 2025",
+    "n_stats": null,
+    "n_all": 22,
+    "avg": 5.61,
+    "pass": 100.0,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "851-0040-00L": {
+  "title": "Can it Be Permissible to Kill a Few in Order to",
+  "latest": {
+   "session": "W25",
+   "sem": "HS 2024",
+   "n_stats": null,
+   "n_all": 26,
+   "avg": 5.27,
+   "pass": 100.0,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W25",
+    "sem": "HS 2024",
+    "n_stats": null,
+    "n_all": 26,
+    "avg": 5.27,
+    "pass": 100.0,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "851-0044-00L": {
+  "title": "Feministische Philosophie und Wissenschaftskritik",
+  "latest": {
+   "session": "S24",
+   "sem": "FS 2024",
+   "n_stats": 1,
+   "n_all": 32,
+   "avg": 5.29,
+   "pass": 100.0,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "S24",
+    "sem": "FS 2024",
+    "n_stats": 1,
+    "n_all": 32,
+    "avg": 5.29,
+    "pass": 100.0,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "851-0095-00L": {
+  "title": "Alles relativ? Über wissenschaftliche Autorität, Meinung…",
+  "latest": {
+   "session": "W24",
+   "sem": "HS 2023",
+   "n_stats": 1,
+   "n_all": 7,
+   "avg": null,
+   "pass": null,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W24",
+    "sem": "HS 2023",
+    "n_stats": 1,
+    "n_all": 7,
+    "avg": null,
+    "pass": null,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "851-0188-00L": {
+  "title": "Reading Eighteenth Century Mathematical Theory of W…",
+  "latest": {
+   "session": "W26",
+   "sem": "HS 2025",
+   "n_stats": null,
+   "n_all": 10,
+   "avg": 5.75,
+   "pass": 100.0,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W26",
+    "sem": "HS 2025",
+    "n_stats": null,
+    "n_all": 10,
+    "avg": 5.75,
+    "pass": 100.0,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "851-0251-00L": {
+  "title": "Psychedelic Science: Psychology Pharmacology",
+  "latest": {
+   "session": "W26",
+   "sem": "HS 2025",
+   "n_stats": null,
+   "n_all": 241,
+   "avg": 5.41,
+   "pass": 100.0,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W24",
+    "sem": "HS 2023",
+    "n_stats": 1,
+    "n_all": 256,
+    "avg": 5.02,
+    "pass": 98.4,
+    "avg_stats": null,
+    "pass_stats": null
+   },
+   {
+    "session": "W25",
+    "sem": "HS 2024",
+    "n_stats": null,
+    "n_all": 350,
+    "avg": 5.27,
+    "pass": 96.9,
+    "avg_stats": null,
+    "pass_stats": null
+   },
+   {
+    "session": "W26",
+    "sem": "HS 2025",
+    "n_stats": null,
+    "n_all": 241,
+    "avg": 5.41,
+    "pass": 100.0,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "851-0252-06L": {
+  "title": "Introduction to Social Networks: Theory, Methods",
+  "latest": {
+   "session": "S24",
+   "sem": "FS 2024",
+   "n_stats": 2,
+   "n_all": 36,
+   "avg": 5.26,
+   "pass": 100.0,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "S24",
+    "sem": "FS 2024",
+    "n_stats": 2,
+    "n_all": 36,
+    "avg": 5.26,
+    "pass": 100.0,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "851-0252-13L": {
+  "title": "Network Modeling",
+  "latest": {
+   "session": "W25",
+   "sem": "HS 2024",
+   "n_stats": null,
+   "n_all": 35,
+   "avg": 5.46,
+   "pass": 100.0,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W24",
+    "sem": "HS 2023",
+    "n_stats": 2,
+    "n_all": 37,
+    "avg": 5.21,
+    "pass": 100.0,
+    "avg_stats": null,
+    "pass_stats": null
+   },
+   {
+    "session": "W25",
+    "sem": "HS 2024",
+    "n_stats": null,
+    "n_all": 35,
+    "avg": 5.46,
+    "pass": 100.0,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "851-0252-15L": {
+  "title": "Network Analysis",
+  "latest": {
+   "session": "W26",
+   "sem": "HS 2025",
+   "n_stats": null,
+   "n_all": 138,
+   "avg": 4.93,
+   "pass": 97.8,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W24",
+    "sem": "HS 2023",
+    "n_stats": 1,
+    "n_all": 182,
+    "avg": 5.27,
+    "pass": 98.9,
+    "avg_stats": null,
+    "pass_stats": null
+   },
+   {
+    "session": "W25",
+    "sem": "HS 2024",
+    "n_stats": null,
+    "n_all": 264,
+    "avg": 5.05,
+    "pass": 98.1,
+    "avg_stats": null,
+    "pass_stats": null
+   },
+   {
+    "session": "W26",
+    "sem": "HS 2025",
+    "n_stats": null,
+    "n_all": 138,
+    "avg": 4.93,
+    "pass": 97.8,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "851-0253-07L": {
+  "title": "Nonordinary Consciousness",
+  "latest": {
+   "session": "S24",
+   "sem": "FS 2024",
+   "n_stats": 1,
+   "n_all": 288,
+   "avg": 5.09,
+   "pass": 97.6,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "S24",
+    "sem": "FS 2024",
+    "n_stats": 1,
+    "n_all": 288,
+    "avg": 5.09,
+    "pass": 97.6,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "851-0370-00L": {
+  "title": "Didactic Basics for Student Teaching Assistants",
+  "latest": {
+   "session": "S24",
+   "sem": "FS 2024",
+   "n_stats": 1,
+   "n_all": 55,
+   "avg": null,
+   "pass": 100.0,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "S24",
+    "sem": "FS 2024",
+    "n_stats": 1,
+    "n_all": 55,
+    "avg": null,
+    "pass": 100.0,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "851-0371-00L": {
+  "title": "Coaching Students",
+  "latest": {
+   "session": "W25",
+   "sem": "HS 2024",
+   "n_stats": null,
+   "n_all": 19,
+   "avg": null,
+   "pass": 100.0,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W25",
+    "sem": "HS 2024",
+    "n_stats": null,
+    "n_all": 19,
+    "avg": null,
+    "pass": 100.0,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "851-0372-00L": {
+  "title": "Ready, Set, Go!",
+  "latest": {
+   "session": "W25",
+   "sem": "HS 2024",
+   "n_stats": null,
+   "n_all": 131,
+   "avg": null,
+   "pass": 100.0,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W24",
+    "sem": "HS 2023",
+    "n_stats": 2,
+    "n_all": 114,
+    "avg": null,
+    "pass": 100.0,
+    "avg_stats": null,
+    "pass_stats": null
+   },
+   {
+    "session": "S24",
+    "sem": "FS 2024",
+    "n_stats": 1,
+    "n_all": 75,
+    "avg": null,
+    "pass": 100.0,
+    "avg_stats": null,
+    "pass_stats": null
+   },
+   {
+    "session": "W25",
+    "sem": "HS 2024",
+    "n_stats": null,
+    "n_all": 131,
+    "avg": null,
+    "pass": 100.0,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "851-0453-00L": {
+  "title": "Artificial Intelligence and Human Values",
+  "latest": {
+   "session": "W26",
+   "sem": "HS 2025",
+   "n_stats": null,
+   "n_all": 170,
+   "avg": 5.24,
+   "pass": 98.2,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W25",
+    "sem": "HS 2024",
+    "n_stats": null,
+    "n_all": 181,
+    "avg": 5.41,
+    "pass": 98.9,
+    "avg_stats": null,
+    "pass_stats": null
+   },
+   {
+    "session": "W26",
+    "sem": "HS 2025",
+    "n_stats": null,
+    "n_all": 170,
+    "avg": 5.24,
+    "pass": 98.2,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "851-0557-00L": {
+  "title": "Soccer Analytics",
+  "latest": {
+   "session": "S25",
+   "sem": "FS 2025",
+   "n_stats": 11,
+   "n_all": 360,
+   "avg": 5.64,
+   "pass": 100.0,
+   "avg_stats": 5.77,
+   "pass_stats": 100.0
+  },
+  "history": [
+   {
+    "session": "S24",
+    "sem": "FS 2024",
+    "n_stats": 15,
+    "n_all": 297,
+    "avg": 5.74,
+    "pass": 100.0,
+    "avg_stats": 5.97,
+    "pass_stats": 100.0
+   },
+   {
+    "session": "S25",
+    "sem": "FS 2025",
+    "n_stats": 11,
+    "n_all": 360,
+    "avg": 5.64,
+    "pass": 100.0,
+    "avg_stats": 5.77,
+    "pass_stats": 100.0
+   }
+  ],
+  "retake": false
+ },
+ "851-0585-41L": {
+  "title": "Computational Social Science",
+  "latest": {
+   "session": "W25",
+   "sem": "HS 2024",
+   "n_stats": null,
+   "n_all": 21,
+   "avg": 5.48,
+   "pass": 100.0,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W24",
+    "sem": "HS 2023",
+    "n_stats": 1,
+    "n_all": 8,
+    "avg": null,
+    "pass": null,
+    "avg_stats": null,
+    "pass_stats": null
+   },
+   {
+    "session": "W25",
+    "sem": "HS 2024",
+    "n_stats": null,
+    "n_all": 21,
+    "avg": 5.48,
+    "pass": 100.0,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "851-0586-03L": {
+  "title": "Applied Network Science: Sports Networks",
+  "latest": {
+   "session": "W24",
+   "sem": "HS 2023",
+   "n_stats": 1,
+   "n_all": 10,
+   "avg": 5.55,
+   "pass": 100.0,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W24",
+    "sem": "HS 2023",
+    "n_stats": 1,
+    "n_all": 10,
+    "avg": 5.55,
+    "pass": 100.0,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "851-0609-06L": {
+  "title": "Governing the Energy Transition",
+  "latest": {
+   "session": "W25",
+   "sem": "HS 2024",
+   "n_stats": null,
+   "n_all": 146,
+   "avg": 5.14,
+   "pass": 100.0,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W25",
+    "sem": "HS 2024",
+    "n_stats": null,
+    "n_all": 146,
+    "avg": 5.14,
+    "pass": 100.0,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "851-0610-00L": {
+  "title": "Climate Finance: The Role of Finance in Tackling Climate…",
+  "latest": {
+   "session": "S24",
+   "sem": "FS 2024",
+   "n_stats": 1,
+   "n_all": 28,
+   "avg": 5.18,
+   "pass": 100.0,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "S24",
+    "sem": "FS 2024",
+    "n_stats": 1,
+    "n_all": 28,
+    "avg": 5.18,
+    "pass": 100.0,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "851-0638-00L": {
+  "title": "Network Clustering",
+  "latest": {
+   "session": "S24",
+   "sem": "FS 2024",
+   "n_stats": 1,
+   "n_all": 17,
+   "avg": 5.6,
+   "pass": 100.0,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "S24",
+    "sem": "FS 2024",
+    "n_stats": 1,
+    "n_all": 17,
+    "avg": 5.6,
+    "pass": 100.0,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "851-0654-00L": {
+  "title": "The Sustainable Development Goals in Context",
+  "latest": {
+   "session": "W24",
+   "sem": "HS 2023",
+   "n_stats": 1,
+   "n_all": 54,
+   "avg": 5.34,
+   "pass": 100.0,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W24",
+    "sem": "HS 2023",
+    "n_stats": 1,
+    "n_all": 54,
+    "avg": 5.34,
+    "pass": 100.0,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "851-0657-00L": {
+  "title": "Digital Technologies and Armed Conflict",
+  "latest": {
+   "session": "W26",
+   "sem": "HS 2025",
+   "n_stats": null,
+   "n_all": 209,
+   "avg": 5.03,
+   "pass": 98.6,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W26",
+    "sem": "HS 2025",
+    "n_stats": null,
+    "n_all": 209,
+    "avg": 5.03,
+    "pass": 98.6,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "851-0685-00L": {
+  "title": "Data and Society",
+  "latest": {
+   "session": "W25",
+   "sem": "HS 2024",
+   "n_stats": null,
+   "n_all": 111,
+   "avg": 5.27,
+   "pass": 98.2,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W24",
+    "sem": "HS 2023",
+    "n_stats": 2,
+    "n_all": 122,
+    "avg": 5.2,
+    "pass": 98.4,
+    "avg_stats": null,
+    "pass_stats": null
+   },
+   {
+    "session": "W25",
+    "sem": "HS 2024",
+    "n_stats": null,
+    "n_all": 111,
+    "avg": 5.27,
+    "pass": 98.2,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "851-0727-02L": {
+  "title": "E-Business-Recht",
+  "latest": {
+   "session": "W25",
+   "sem": "HS 2024",
+   "n_stats": null,
+   "n_all": 190,
+   "avg": 5.25,
+   "pass": 94.2,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W25",
+    "sem": "HS 2024",
+    "n_stats": null,
+    "n_all": 190,
+    "avg": 5.25,
+    "pass": 94.2,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "851-0732-06L": {
+  "title": "Law & Tech",
+  "latest": {
+   "session": "W24",
+   "sem": "HS 2023",
+   "n_stats": 1,
+   "n_all": 34,
+   "avg": 5.76,
+   "pass": 100.0,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W24",
+    "sem": "HS 2023",
+    "n_stats": 1,
+    "n_all": 34,
+    "avg": 5.76,
+    "pass": 100.0,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "851-0745-00L": {
+  "title": "Ethics Workshop: The Impact of Digital Life on Society",
+  "latest": {
+   "session": "W26",
+   "sem": "HS 2025",
+   "n_stats": null,
+   "n_all": 31,
+   "avg": 5.6,
+   "pass": 100.0,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W26",
+    "sem": "HS 2025",
+    "n_stats": null,
+    "n_all": 31,
+    "avg": 5.6,
+    "pass": 100.0,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "851-0762-00L": {
+  "title": "Computational Social Science with Images and Audio",
+  "latest": {
+   "session": "W26",
+   "sem": "HS 2025",
+   "n_stats": null,
+   "n_all": 17,
+   "avg": 5.32,
+   "pass": 94.1,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W26",
+    "sem": "HS 2025",
+    "n_stats": null,
+    "n_all": 17,
+    "avg": 5.32,
+    "pass": 94.1,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "851-0816-07L": {
+  "title": "Français B2-C1 : Langue et littérature",
+  "latest": {
+   "session": "W25",
+   "sem": "HS 2024",
+   "n_stats": null,
+   "n_all": 13,
+   "avg": 5.83,
+   "pass": 100.0,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W25",
+    "sem": "HS 2024",
+    "n_stats": null,
+    "n_all": 13,
+    "avg": 5.83,
+    "pass": 100.0,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "851-0832-10L": {
+  "title": "Advanced English for Academic Purposes (C1-C2)",
+  "latest": {
+   "session": "W25",
+   "sem": "HS 2024",
+   "n_stats": null,
+   "n_all": 50,
+   "avg": 5.44,
+   "pass": 100.0,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "S24",
+    "sem": "FS 2024",
+    "n_stats": 1,
+    "n_all": 53,
+    "avg": 5.42,
+    "pass": 100.0,
+    "avg_stats": null,
+    "pass_stats": null
+   },
+   {
+    "session": "W25",
+    "sem": "HS 2024",
+    "n_stats": null,
+    "n_all": 50,
+    "avg": 5.44,
+    "pass": 100.0,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "851-0856-04L": {
+  "title": "Español B2-C1: Gramática y comunicación",
+  "latest": {
+   "session": "S24",
+   "sem": "FS 2024",
+   "n_stats": 2,
+   "n_all": 7,
+   "avg": null,
+   "pass": null,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "S24",
+    "sem": "FS 2024",
+    "n_stats": 2,
+    "n_all": 7,
+    "avg": null,
+    "pass": null,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "853-0047-01L": {
+  "title": "Weltpolitik seit 1945: Geschichte der int. Beziehungen",
+  "latest": {
+   "session": "W24",
+   "sem": "HS 2023",
+   "n_stats": 2,
+   "n_all": 70,
+   "avg": 4.54,
+   "pass": 94.3,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W24",
+    "sem": "HS 2023",
+    "n_stats": 2,
+    "n_all": 70,
+    "avg": 4.54,
+    "pass": 94.3,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "853-0061-00L": {
+  "title": "Einführung in die Cybersicherheitspolitik",
+  "latest": {
+   "session": "W26",
+   "sem": "HS 2025",
+   "n_stats": null,
+   "n_all": 171,
+   "avg": 5.06,
+   "pass": 100.0,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W26",
+    "sem": "HS 2025",
+    "n_stats": null,
+    "n_all": 171,
+    "avg": 5.06,
+    "pass": 100.0,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ },
+ "860-0023-00L": {
+  "title": "International Environmental Politics",
+  "latest": {
+   "session": "W25",
+   "sem": "HS 2024",
+   "n_stats": null,
+   "n_all": 256,
+   "avg": 5.18,
+   "pass": 97.7,
+   "avg_stats": null,
+   "pass_stats": null
+  },
+  "history": [
+   {
+    "session": "W25",
+    "sem": "HS 2024",
+    "n_stats": null,
+    "n_all": 256,
+    "avg": 5.18,
+    "pass": 97.7,
+    "avg_stats": null,
+    "pass_stats": null
+   }
+  ],
+  "retake": false
+ }
+}

@@ -1,0 +1,180 @@
+code,title,W24_share,W24_avg,W24_pass,S24_share,S24_avg,S24_pass,W25_share,W25_avg,W25_pass,S25_share,S25_avg,S25_pass,W26_share,W26_avg,W26_pass
+052-0570-25S,Ringvorlesung Entwurf und Architektur: Practice,,,,,,,,,,–/–,,,,,
+101-0288-00S,Snow and Avalanches: Processes and Risk,,,,,,,,,,–/–,,,,,
+103-0251-00S,Computational Methods for Geospatial Analysis,1/20,5.25,100.0,,,,,,,,,,,,
+103-0287-00S,Image-based Mapping,1/9,,,,,,,,,,,,,,
+151-0325-00S,Planning and Decision Making for Autonomous Robots,,,,,,,,,,,,,–/187,5.57,96.8
+151-0563-01S,Dynamic Programming and Optimal Control,1/210,4.97,95.7,,,,,,,,,,,,
+151-0566-00S,Recursive Estimation,,,,,,,,,,–/–,,,,,
+151-0623-00S,"ETH Zurich Distinguished Seminar in Robotics, Systems and Controls",1/82,,100.0,,,,,,,,,,,,
+151-0632-00S,Vision Algorithms for Mobile Robotics (University of Zurich),,,,,,,,,,,,,–/93,5.24,98.9
+151-0851-00S,Robot Dynamics,,,,,,,,,,,,,–/324,5.11,94.1
+227-0085-59S,Hands-On Deep Learning,,,,12/133,,96.2,,,,,,,,,
+227-0101-00S,Discrete-Time and Statistical Signal Processing,,,,,,,–/41,4.9,87.8,,,,,,
+227-0104-00S,Communication and Detection Theory,,,,,,,,,,–/–,,,,,
+227-0423-00S,Neural Network Theory,3/68,5.26,89.7,,,,,,,,,,,,
+227-0427-10S,Model-Based Estimation and Signal Analysis,,,,,,,,,,–/–,,,,,
+227-0432-00S,"Learning, Classification and Compression",,,,,,,,,,–/–,,,,,
+227-0434-10S,Mathematics of Information,,,,2/20,4.47,75.0,,,,–/–,,,,,
+227-0447-00S,Image Analysis and Computer Vision,,,,,,,–/180,5.0,95.6,,,,,,
+227-0731-00S,Power Market I - Portfolio and Risk Management,,,,,,,–/139,4.74,82.7,,,,,,
+252-0002-AAS,Data Structures and Algorithms,,,,–/19,4.14,73.7,,,,,,,–/–,,
+252-0220-00S,Introduction to Machine Learning,1/85,4.67,89.4,28/915,4.86,93.6,–/93,4.63,88.2,19/761,4.83,90.3,,,
+252-0526-00S,Statistical Learning Theory,,,,3/50,4.81,88.0,,,,,,,,,
+252-0535-00S,Advanced Machine Learning,1/211,4.66,87.2,1/21,5.19,76.2,–/224,4.71,85.3,,,,–/214,4.84,87.9
+252-0840-02S,Anwendungsnahes Programmieren mit Python,,,,3/209,,100.0,,,,–/–,,,,,
+252-0856-00S,Informatik,–/74,5.07,87.8,,,,–/86,4.88,83.7,,,,–/55,4.71,76.4
+252-3005-00S,Natural Language Processing,2/96,5.05,99.0,,,,–/89,5.13,92.1,,,,–/70,5.03,84.3
+252-3900-00S,Big Data for Engineers,,,,8/142,5.33,96.5,,,,–/–,,,,,
+252-5051-00S,Advanced Topics in Machine Learning,2/40,5.58,100.0,,,,–/36,5.56,97.2,,,,–/40,5.73,100.0
+261-5120-00S,Machine Learning for Health Care,,,,11/62,5.35,100.0,,,,–/–,,,,,
+263-2400-00S,Reliable and Trustworthy Artificial Intelligence,4/137,4.29,73.0,,,,–/96,4.32,71.9,,,,,,
+263-3210-00S,Deep Learning,6/164,5.12,94.5,,,,13/222,5.18,96.4,,,,–/150,4.84,96.7
+263-4400-00S,Advanced Graph Algorithms and Optimization,,,,,,,,,,–/–,,,,,
+263-4511-00S,Projects in Topological Data Analysis,1/6,,,,,,,,,,,,,,
+263-4658-00S,Privacy Enhancing Technologies,,,,,,,–/74,5.31,97.3,,,,,,
+263-5000-00S,Computational Semantics for Natural Language,,,,,,,,,,–/–,,,,,
+263-5052-00S,Interactive Machine Learning: Visualization &,,,,1/61,5.38,95.1,,,,–/–,,,,,
+263-5056-00S,Applications of Deep Learning on Graphs,2/34,5.51,100.0,,,,,,,,,,,,
+263-5058-00S,Technology and Entrepreneurship,,,,,,,,,,,,,–/26,5.25,100.0
+263-5210-00S,Probabilistic Artificial Intelligence,23/627,4.97,94.9,,,,19/555,4.86,93.7,,,,25/684,4.84,92.4
+263-5255-00S,Foundations of Reinforcement Learning,,,,5/114,5.04,91.2,,,,–/–,,,,,
+263-5300-00S,Guarantees for Machine Learning,5/15,5.48,100.0,,,,,,,,,,–/23,5.59,82.6
+263-5351-00S,Machine Learning for Genomics,,,,,,,–/51,5.14,92.2,,,,–/59,5.19,94.9
+263-5354-00S,Large Language Models,,,,3/177,5.04,92.7,,,,–/–,,,,,
+263-5902-00S,Computer Vision,,,,,,,–/144,5.1,96.5,,,,,,
+351-1158-00S,Ökonomie,,,,,,,,,,,,,–/348,4.93,85.9
+363-0503-00S,Principles of Microeconomics,4/264,4.46,83.7,,,,,,,,,,,,
+363-0561-00S,Climate Economics and Finance,,,,1/281,4.91,80.4,,,,–/–,,,,,
+363-0565-00S,Principles of Macroeconomics,1/525,4.73,82.3,,,,–/657,4.8,82.0,,,,–/759,4.87,82.3
+363-0570-00S,Principles of Econometrics,,,,,,,,,,–/–,,,,,
+363-0790-00S,Technology Entrepreneurship,,,,,,,–/200,5.28,97.5,,,,,,
+363-1017-00S,Risk and Insurance Economics,,,,,,,–/105,5.43,99.0,,,,,,
+363-1106-00S,The Economics of Climate Change,,,,,,,,,,,,,–/20,5.13,100.0
+363-1200-00S,Economics for Actuaries,,,,,,,,,,,,,–/20,5.3,100.0
+376-1663-00S,"Climate, Ethics and Human Health",,,,,,,,,,–/–,,,,,
+401-0102-00S,Applied Multivariate Statistics,,,,,,,,,,–/–,,,,,
+401-0624-00S,Mathematik IV: Statistik,–/133,4.76,84.2,,,,–/213,4.55,84.5,,,,–/164,4.98,90.9
+401-0625-01S,Applied Analysis of Variance and Experimental,35/106,5.2,97.2,5/8,,,21/93,5.16,91.4,–/–,,,39/111,4.88,91.0
+401-0627-00S,Smoothing and Nonparametric Regression with,14/17,5.82,100.0,1/1,,,–/–,,,,,,–/–,,
+401-2000-00S,Scientific Works in Mathematics,43/234,,100.0,3/44,,100.0,40/218,,100.0,–/–,,,39/215,,100.0
+401-2283-00S,Analysis III (Measure Theory),,,,1/5,,,–/11,5.39,90.9,,,,,,
+401-2604-00S,Wahrscheinlichkeit und Statistik,,,,–/137,4.86,90.5,–/–,,,–/–,,,–/11,4.07,72.7
+401-3052-10S,Graph Theory,,,,,,,,,,–/–,,,,,
+401-3352-09S,Partial Differential Equations,,,,,,,,,,–/–,,,,,
+401-3382-25S,Log-Sobolev Inequalities and Markov Semigroups,,,,,,,,,,–/–,,,,,
+401-3461-00S,Functional Analysis I,,,,,,,,,,,,,–/74,4.36,60.8
+401-3462-00S,Functional Analysis II,1/7,,,,,,,,,,,,,,
+401-3601-00S,Probability Theory,2/88,4.78,84.1,,,,–/115,4.89,91.3,–/–,,,–/139,4.89,90.6
+401-3602-00S,Applied Stochastic Processes,,,,,,,,,,–/–,,,,,
+401-3603-60S,Large Deviation Theory,,,,,,,,,,,,,–/16,5.5,81.3
+401-3612-00S,Stochastic Simulation,,,,,,,13/34,5.08,85.3,–/–,,,,,
+401-3620-20S,Student Seminar in Statistics: Inference in Some Non-Standard Problems,3/23,,100.0,,,,,,,–/–,,,,,
+401-3620-24S,Student Seminar in Statistics: E-Values and Anytime-Valid Inference,,,,4/32,,100.0,,,,,,,,,
+401-3620-25S,Student Seminar in Statistics: Conformal and,,,,,,,,,,–/–,,,,,
+401-3620-75S,Student Seminar in Statistics: Representation Learning,,,,,,,,,,,,,–/33,,100.0
+401-3621-00S,Fundamentals of Mathematical Statistics,29/111,5.23,92.8,4/18,4.44,66.7,37/115,4.26,63.5,–/–,,,28/100,4.31,66.0
+401-3622-00S,Statistical Modelling,36/99,5.22,91.9,2/10,4.4,70.0,30/104,5.01,93.3,,,,44/106,5.31,94.3
+401-3627-00S,High-Dimensional Statistics,24/56,5.26,92.9,1/5,,,,,,28/69,5.12,91.3,–/–,,
+401-3628-14S,Bayesian Statistics,19/53,5.02,86.8,2/5,,,,,,,,,16/57,5.02,86.0
+401-3629-00S,Quantitative Risk Management,,,,5/109,4.27,70.6,,,,–/–,,,,,
+401-3630-04S,Semesterarbeit,2/2,,,3/3,,,–/–,,,–/–,,,–/–,,
+401-3630-06S,Semesterarbeit,3/3,,,7/7,,,–/–,,,–/–,,,–/–,,
+401-3632-00S,Computational Statistics,2/17,4.27,70.6,30/163,4.76,89.6,–/13,5.25,69.2,23/171,4.81,84.2,,,
+401-3642-00S,Brownian Motion and Stochastic Calculus,,,,,,,,,,–/–,,,–/–,,
+401-3823-74S,Markov Processes,,,,,,,–/46,5.62,97.8,,,,,,
+401-3902-21S,Network & Integer Optimization,,,,2/30,5.08,80.0,,,,,,,,,
+401-3904-22S,Convex Optimization,,,,2/24,4.55,75.0,,,,–/–,,,,,
+401-3913-01S,Mathematical Foundations for Finance,,,,,,,–/102,4.17,62.7,,,,–/98,4.15,59.2
+401-3915-73S,Machine Learning in Finance and Insurance,,,,,,,–/81,5.08,97.5,,,,–/110,4.64,90.0
+401-3916-25S,Machine Learning for Finance and Complex,,,,,,,,,,–/–,,,,,
+401-3925-00S,Non-Life Insurance: Mathematics and Statistics,,,,,,,,,,,,,–/75,4.94,81.3
+401-3927-00S,Mathematical Modelling in Life Insurance,,,,,,,,,,,,,–/23,4.86,82.6
+401-3928-00S,Reinsurance Analytics,,,,1/41,5.29,92.7,,,,–/–,,,,,
+401-3929-00S,Financial Risk Management in Social and Pension Insurance,,,,,,,,,,,,,–/28,5.23,89.3
+401-3931-00S,Responsible Machine Learning with Insurance,,,,,,,–/–,,,,,,,,
+401-3932-19S,Mathematics for New Technologies in Finance,,,,1/45,5.02,82.2,,,,–/–,,,,,
+401-4614-24S,Condensation Phenomena in Random Trees,,,,1/5,,,,,,,,,,,
+401-4620-00S,Statistics Lab,,,,29/29,,100.0,,,,24/24,,100.0,,,
+401-4623-00S,Time Series Analysis,,,,,,,33/143,5.26,93.7,–/–,,,,,
+401-4627-00S,Empirical Process Theory and Applications,,,,,,,,,,,,,–/10,5.63,100.0
+401-4632-15S,Causality,17/54,5.46,94.4,5/8,,,36/70,5.29,95.7,–/–,,,24/89,4.95,91.0
+401-4633-00S,Data Analytics in Organisations and Business,11/36,5.39,86.1,,,,–/37,5.31,91.9,,,,–/30,5.29,96.7
+401-4634-24S,"Diffusion Models, Sampling and Stochastic Localization",,,,9/53,,,,,,,,,,,
+401-4656-21S,AI in the Sciences and Engineering,,,,2/93,,,–/67,5.72,100.0,,,,–/104,5.54,100.0
+401-4682-25S,Topics in Randomized Matrix Computations,,,,,,,,,,–/–,,,,,
+401-4944-20S,Mathematics of Data Science,3/41,4.56,80.5,,,,–/67,4.73,82.1,,,,–/73,4.81,90.4
+401-4990-02S,Master's Thesis,1/1,,,4/4,,,–/–,,,11/11,5.84,100.0,,,
+401-6215-00S,Using R for Data Analysis and Graphics (Part I),4/125,4.77,90.4,,,,–/77,5.06,90.9,,,,,,
+401-6217-00S,Using R for Data Analysis and Graphics (Part II),5/96,4.22,61.5,,,,–/56,4.23,73.2,,,,–/36,4.04,58.3
+401-6228-00S,Programming with R for Reproducible Research,,,,,,,,,,–/–,,,,,
+401-6282-00S,Statistical Analysis of High-Throughput Genomic and Transcriptomic Data,1/29,5.33,93.1,,,,,,,,,,,,
+401-6624-11S,Applied Time Series,,,,,,,,,,–/–,,,,,
+401-8616-25S,Analysis of Longitudinal Data (University of Zurich),,,,,,,,,,–/–,,,,,
+401-8618-00S,Statistical Methods in Epidemiology (University of Zurich),,,,4/5,,,,,,–/–,,,,,
+401-8623-00S,Likelihood Inference (University of Zurich),16/17,4.53,82.4,,,,–/–,,,,,,24/24,5.04,91.7
+401-8624-25S,Likelihood & Regression II (University of Zurich),,,,,,,,,,–/–,,,,,
+401-8625-00S,Clinical Biostatistics (University of Zurich),2/3,,,,,,–/–,,,,,,–/–,,
+401-8628-00S,Survival Analysis (University of Zurich),,,,2/2,,,,,,,,,,,
+401-8905-00S,Financial Engineering (University of Zurich),,,,1/16,4.08,81.3,,,,–/–,,,,,
+402-0255-00S,Einführung in die Festkörperphysik,,,,,,,,,,,,,–/111,4.88,85.6
+402-0266-00S,Introduction to Nuclear and Particle Physics,,,,,,,,,,–/–,,,,,
+402-2883-00S,Physik III,,,,,,,,,,,,,–/251,4.57,82.1
+406-0173-AAS,Linear Algebra I and II,–/3,,,,,,,,,,,,–/–,,
+406-0243-AAS,Analysis I and II,,,,–/3,,,,,,,,,–/–,,
+447-6201-00S,Nonparametric and Resampling Methods,,,,,,,,,,,,,–/–,,
+447-6222-00S,Robust and Nonlinear Regression,,,,8/9,,,,,,,,,,,
+447-6289-00S,Stichproben-Erhebungen,,,,,,,–/–,,,,,,,,
+535-0022-00S,Computer-Assisted Drug Design,,,,,,,–/32,5.09,100.0,,,,,,
+636-0702-00S,Statistical Models in Computational Biology,,,,1/28,4.87,89.3,,,,,,,,,
+701-0371-00S,Ecosystem Conservation and Restoration,1/28,,96.4,,,,,,,,,,,,
+701-0747-00S,Umweltpolitik der Schweiz,,,,,,,–/331,5.01,98.8,,,,,,
+701-1226-00S,Inter-Annual Phenomena and Their Prediction,,,,1/34,4.91,85.3,,,,,,,,,
+701-1253-00S,Analysis of Climate and Weather Data,1/56,4.45,75.0,,,,–/23,4.93,82.6,,,,,,
+701-1271-00S,Statistical Learning for Atmospheric and Climate Science,,,,,,,,,,,,,–/26,5.38,100.0
+701-1346-00S,Climate Change Mitigation: Carbon Dioxide Removal,,,,,,,,,,,,,–/80,,100.0
+751-1500-00S,Entwicklungsökonomik,,,,,,,,,,–/–,,,,,
+851-0020-00S,Gender and Science,,,,,,,,,,,,,–/22,5.61,100.0
+851-0040-00S,Can it Be Permissible to Kill a Few in Order to,,,,,,,–/26,5.27,100.0,,,,,,
+851-0044-00S,Feministische Philosophie und Wissenschaftskritik,,,,1/32,5.29,100.0,,,,,,,,,
+851-0095-00S,"Alles relativ? Über wissenschaftliche Autorität, Meinung…",1/7,,,,,,,,,,,,,,
+851-0188-00S,Reading Eighteenth Century Mathematical Theory of W…,,,,,,,,,,,,,–/10,5.75,100.0
+851-0225-00S,L’alba di un nuovo mondo: la cultura giovanile,,,,,,,,,,–/–,,,,,
+851-0251-00S,Psychedelic Science: Psychology Pharmacology,1/256,5.02,98.4,,,,–/350,5.27,96.9,,,,–/241,5.41,100.0
+851-0252-06S,"Introduction to Social Networks: Theory, Methods",,,,2/36,5.26,100.0,,,,–/–,,,,,
+851-0252-13S,Network Modeling,2/37,5.21,100.0,,,,–/35,5.46,100.0,,,,,,
+851-0252-15S,Network Analysis,1/182,5.27,98.9,,,,–/264,5.05,98.1,,,,–/138,4.93,97.8
+851-0253-07S,Nonordinary Consciousness,,,,1/288,5.09,97.6,,,,,,,,,
+851-0370-00S,Didactic Basics for Student Teaching Assistants,,,,1/55,,100.0,,,,,,,,,
+851-0371-00S,Coaching Students,,,,,,,–/19,,100.0,,,,,,
+851-0372-00S,"Ready, Set, Go!",2/114,,100.0,1/75,,100.0,–/131,,100.0,,,,,,
+851-0420-00S,"Complexity, Security and War",,,,,,,,,,–/–,,,,,
+851-0453-00S,Artificial Intelligence and Human Values,,,,,,,–/181,5.41,98.9,,,,–/170,5.24,98.2
+851-0454-00S,"AI Personhood, Social Justice, and Cross-Cultural",,,,,,,,,,–/–,,,,,
+851-0455-00S,"Science, Trust and Politics",,,,,,,,,,–/–,,,,,
+851-0513-00S,Wirtschaftssoziologie,,,,,,,,,,–/–,,,,,
+851-0557-00S,Soccer Analytics,,,,15/297,5.74,100.0,,,,11/360,5.64,100.0,,,
+851-0585-41S,Computational Social Science,1/8,,,,,,–/21,5.48,100.0,,,,,,
+851-0585-48S,Controversies in Game Theory,,,,,,,,,,–/–,,,,,
+851-0586-03S,Applied Network Science: Sports Networks,1/10,5.55,100.0,,,,,,,,,,,,
+851-0609-06S,Governing the Energy Transition,,,,,,,–/146,5.14,100.0,,,,,,
+851-0610-00S,Climate Finance: The Role of Finance in Tackling Climate…,,,,1/28,5.18,100.0,,,,,,,,,
+851-0638-00S,Network Clustering,,,,1/17,5.6,100.0,,,,,,,,,
+851-0654-00S,The Sustainable Development Goals in Context,1/54,5.34,100.0,,,,,,,,,,,,
+851-0657-00S,Digital Technologies and Armed Conflict,,,,,,,,,,,,,–/209,5.03,98.6
+851-0685-00S,Data and Society,2/122,5.2,98.4,,,,–/111,5.27,98.2,,,,,,
+851-0727-02S,E-Business-Recht,,,,,,,–/190,5.25,94.2,,,,,,
+851-0732-06S,Law & Tech,1/34,5.76,100.0,,,,,,,,,,,,
+851-0745-00S,Ethics Workshop: The Impact of Digital Life on Society,,,,,,,,,,,,,–/31,5.6,100.0
+851-0746-00S,Algorithms and Fairness,,,,,,,,,,–/–,,,,,
+851-0762-00S,Computational Social Science with Images and Audio,,,,,,,,,,,,,–/17,5.32,94.1
+851-0815-04S,Français B2 : Mise à niveau,,,,,,,,,,–/–,,,,,
+851-0816-07S,Français B2-C1 : Langue et littérature,,,,,,,–/13,5.83,100.0,,,,,,
+851-0832-10S,Advanced English for Academic Purposes (C1-C2),,,,1/53,5.42,100.0,–/50,5.44,100.0,,,,,,
+851-0856-04S,Español B2-C1: Gramática y comunicación,,,,2/7,,,,,,,,,,,
+851-0856-06S,Español B2-C1: Realidades del mundo hispano,,,,,,,,,,–/–,,,,,
+853-0047-01S,Weltpolitik seit 1945: Geschichte der int. Beziehungen,2/70,4.54,94.3,,,,,,,,,,,,
+853-0061-00S,Einführung in die Cybersicherheitspolitik,,,,,,,,,,,,,–/171,5.06,100.0
+853-0302-01S,Europäische Integration (Seminar ohne Tutorat),,,,,,,–/–,,,,,,,,
+860-0023-00S,International Environmental Politics,,,,,,,–/256,5.18,97.7,,,,,,
+871-0240-00S,Menschliches Lernen (EW1),,,,,,,–/–,,,,,,,,

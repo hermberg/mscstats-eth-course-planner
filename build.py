@@ -4,6 +4,13 @@ import json, re, os
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 C = json.load(open(os.environ.get("COURSES", os.path.join(HERE, "courses.json"))))
+# Optional layer: per-course exam record from ETH's grade statistics.
+# Delete gradestats/gradestats.json (or the whole folder) and rebuild to ship
+# the page without any grade figures.
+try:
+    GS = json.load(open(os.path.join(HERE, "gradestats", "gradestats.json")))
+except FileNotFoundError:
+    GS = {}
 
 BULLET = re.compile(r'^\s*([-•*·–]|\d+[.)]|[a-z][.)]\s)')
 
@@ -169,6 +176,7 @@ for i, x in enumerate(C):
         "comp": comp(x.get("competencies", "")),
         "both": x["both_semesters"],
         "faq": FAQ.get(x["code"]),
+        "gs": GS.get(x["code"]),
         "dept": DEPT.get(x["code"][:3], ""),
     }
     # "Does not take place this semester" is a Spring 2026 fact. These courses
@@ -382,7 +390,40 @@ mark{background:var(--accent-soft); color:inherit; border-radius:2px; padding:0 
 .faq p:last-of-type{margin-bottom:0}
 .faq .src{font-size:11px; color:var(--muted); margin-top:10px; padding-top:9px;
   border-top:1px solid var(--line); line-height:1.45}
-.gradechip{background:var(--fill); color:var(--ink-2); box-shadow:inset 0 0 0 1px var(--line)}
+.gradechip{background:var(--fill); color:var(--ink-2); box-shadow:inset 0 0 0 1px var(--line);
+  text-transform:none; letter-spacing:.01em}
+.gradechip.low{background:var(--warn-soft); color:var(--warn); box-shadow:inset 0 0 0 1px var(--warn)}
+
+/* ---------- exam record ---------- */
+.rec{margin:18px 0 4px; border:1px solid var(--line); border-radius:var(--r);
+  background:var(--surface-2); padding:13px 16px 15px}
+.rec h4{font-family:"JetBrains Mono",monospace; font-size:10.5px; letter-spacing:.11em;
+  text-transform:uppercase; color:var(--ink-2); margin:0 0 10px; font-weight:600;
+  display:flex; flex-wrap:wrap; gap:10px; align-items:baseline}
+.rec h4 .when{font-weight:400; letter-spacing:.04em; color:var(--muted); text-transform:none}
+.rec .metrics{display:flex; flex-wrap:wrap; gap:8px; margin-bottom:12px}
+.rec .metric{background:var(--surface); border:1px solid var(--line); border-radius:var(--r);
+  padding:6px 11px; display:flex; flex-direction:column; gap:1px; min-width:78px}
+.rec .metric .mk{font-family:"JetBrains Mono",monospace; font-size:9.5px; letter-spacing:.09em;
+  text-transform:uppercase; color:var(--muted)}
+.rec .metric .mv{font-family:"JetBrains Mono",monospace; font-size:17px; font-weight:600;
+  font-variant-numeric:tabular-nums; letter-spacing:-.02em; line-height:1.15}
+.rec .metric .mn{font-size:10.5px; color:var(--muted)}
+.rec .metric.alarm .mv{color:var(--warn)}
+.hist{width:auto; min-width:min(520px,100%); border-collapse:collapse; font-family:"JetBrains Mono",monospace;
+  font-size:11.5px; font-variant-numeric:tabular-nums}
+.hist th{font-size:9.5px; letter-spacing:.09em; text-transform:uppercase; color:var(--muted);
+  font-weight:400; text-align:right; padding:0 0 5px 12px; border-bottom:1px solid var(--line)}
+.hist th:first-child{text-align:left; padding-left:0}
+.hist td{padding:4px 0 4px 12px; text-align:right; border-bottom:1px solid var(--line-2);
+  color:var(--ink-2)}
+.hist td:first-child{text-align:left; padding-left:0}
+.hist tr:last-child td{border-bottom:0}
+.hist tr.now td{color:var(--ink); font-weight:600}
+.hist tr.now td:first-child::after{content:" ·  latest"; font-weight:400; color:var(--accent);
+  letter-spacing:.04em}
+.rec .foot{font-size:11px; color:var(--faint); margin:10px 0 0; padding-top:9px;
+  border-top:1px solid var(--line); line-height:1.5}
 
 /* ---------- programme structure panel ---------- */
 .struct{margin:26px 0 0; border:1px solid var(--line); border-radius:var(--r);
@@ -686,6 +727,42 @@ function hi(text){
   if(!terms.length) return t;
   return t.replace(new RegExp("("+terms.join("|")+")","gi"), "<mark>$1</mark>");
 }
+/* Exam record from ETH's grade statistics. Headline figures come from the most
+   recent sitting; the table keeps every sitting so a one-off result — or a small
+   retake round — is visible rather than hidden behind an average. */
+function examRecord(gs){
+  const L = gs.latest, n2 = v => v == null ? "–" : v.toFixed(2);
+  const pc = v => v == null ? "–" : `${v.toFixed(1)}%`;
+  const share = (L.n_stats != null && L.n_all) ? Math.round(100 * L.n_stats / L.n_all) : null;
+  const cells = [];
+  if(L.avg != null) cells.push(`<div class="metric"><span class="mk">Average</span>
+      <span class="mv">${n2(L.avg)}</span><span class="mn">of 6</span></div>`);
+  if(L.pass != null) cells.push(`<div class="metric${L.pass < 80 ? " alarm" : ""}">
+      <span class="mk">Pass rate</span><span class="mv">${pc(L.pass)}</span>
+      <span class="mn">grade ≥ 4</span></div>`);
+  if(L.n_all != null) cells.push(`<div class="metric"><span class="mk">Examined</span>
+      <span class="mv">${L.n_all}</span><span class="mn">all programmes</span></div>`);
+  if(L.n_stats != null) cells.push(`<div class="metric"><span class="mk">MSc Statistics</span>
+      <span class="mv">${L.n_stats}</span><span class="mn">${share != null ? share + "% of the room" : ""}</span></div>`);
+  if(L.avg_stats != null) cells.push(`<div class="metric"><span class="mk">Stats cohort ⌀</span>
+      <span class="mv">${n2(L.avg_stats)}</span><span class="mn">same sitting</span></div>`);
+
+  const rows = gs.history.map(h => `<tr class="${h.session === L.session ? "now" : ""}">
+      <td>${esc(h.sem)}</td><td>${n2(h.avg)}</td><td>${pc(h.pass)}</td>
+      <td>${h.n_all != null ? h.n_all : "–"}</td>
+      <td>${h.n_stats != null ? h.n_stats : "–"}</td></tr>`).join("");
+
+  return `<div class="rec">
+    <h4>Exam record<span class="when">ETH grade statistics · latest sitting ${esc(L.sem)}</span></h4>
+    <div class="metrics">${cells.join("")}</div>
+    ${gs.history.length > 1 ? `<table class="hist">
+      <thead><tr><th>Sitting</th><th>Average</th><th>Pass</th><th>Examined</th><th>MSc Stats</th></tr></thead>
+      <tbody>${rows}</tbody></table>` : ""}
+    <p class="foot">Figures are the all-programmes block ("alle Studiengänge, ohne Unterbr.")
+      unless labelled stats cohort. ${gs.retake ? "<b>The latest sitting is much smaller than this course's usual cohort — likely a retake round; read the table, not the headline.</b> " : ""}Cells redacted in the source reports show as “–”.</p>
+  </div>`;
+}
+
 function field(label, arr, extra){
   if(!arr || !arr.length) return "";
   return `<div class="field ${extra||""}"><dt>${label}</dt><dd>${
@@ -718,9 +795,15 @@ function sortRows(rows){
 }
 
 function rowHTML(c){
+  const L = c.gs && c.gs.latest;
+  const chip = L
+    ? `<span class="flag gradechip${L.pass != null && L.pass < 80 ? " low" : ""}">${
+        L.avg != null ? `⌀ ${L.avg.toFixed(2)} · ` : ""}${
+        L.pass != null ? `${Math.round(L.pass)}% pass · ` : ""}n=${L.n_all != null ? L.n_all : "–"}</span>`
+    : "";
   const flags = c.flags.map(f => `<span class="flag ${flagClass(f)}">${esc(f)}</span>`).join("")
-    + (c.faq && c.faq.avg ? `<span class="flag gradechip">Avg grade ${esc(c.faq.avg)} · pass ${esc(c.faq.pass)}</span>` : "")
-    + (c.faq && !c.faq.avg ? `<span class="flag gradechip">Student FAQ note</span>` : "");
+    + chip
+    + (c.faq ? `<span class="flag mute">Student FAQ note</span>` : "");
   const dim = c.flags.some(f => /Not taking place/.test(f)) ? " dim" : "";
   const isOpen = open.has(c.i) ? " open" : "";
   return `<div class="course${dim}${isOpen}" data-i="${c.i}">
@@ -748,12 +831,13 @@ function rowHTML(c){
         g.items.map(it => `<li class="${/assessed/i.test(it[1]) && !/not/i.test(it[1]) ? "" : "na"}">${esc(it[0])}</li>`).join("")
       }</ul></div>`).join("")}</div></dd></div>` : ""}
     </dl>
+    ${c.gs ? examRecord(c.gs) : ""}
     ${c.faq ? `<div class="faq">
       <h4>Excerpt from MSc Notion page</h4>
       ${c.faq.avg ? `<div class="metrics">
         <div class="metric"><span class="mk">Core area</span><span class="mv" style="font-size:12px">${esc(c.faq.area)}</span></div>
-        <div class="metric"><span class="mk">Avg grade</span><span class="mv">${esc(c.faq.avg)}</span></div>
-        <div class="metric"><span class="mk">Pass rate</span><span class="mv">${esc(c.faq.pass)}</span></div>
+        <div class="metric"><span class="mk">FAQ avg · stats cohort</span><span class="mv">${esc(c.faq.avg)}</span></div>
+        <div class="metric"><span class="mk">FAQ pass · stats cohort</span><span class="mv">${esc(c.faq.pass)}</span></div>
       </div>` : ""}
       ${c.faq.note.map(p => `<p>${hi(p)}</p>`).join("")}
       <p class="src">MSc Statistics Student FAQ, compiled by the student representatives, last updated 17.03.2026. Informal guidance — not official ETH information. Grade averages are unofficial figures from ETH grade statistics and vary year to year.</p>

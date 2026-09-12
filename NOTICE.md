@@ -39,12 +39,37 @@ as predictions.
 For authoritative rules, see the study regulations (Art. 30) and the official programme
 FAQ at `math.ethz.ch/sfs/education/msc-in-statistics`.
 
-## Search indexing
+## Grade statistics
 
-`robots.txt` asks crawlers not to index the published page. The catalogue itself is open,
-but the FAQ excerpts and the unofficial grade statistics were written for a student
-audience, and there is no reason for them to surface in general search results. The page
-stays reachable by anyone with the link.
+`gradestats/` is derived from five ETH reports, *Notendurchschnitte pro Fach und Stufe für
+Master-Studiengang Statistik, Regl. 15.10.2019*, for exam sessions W24, S24, W25, S25 and
+W26. These are internal ETH statistics that circulate among students; they are not
+published by ETH.
+
+**The source PDFs are deliberately not committed here.** They carry more than the derived
+figures — per-cohort detail, repeat-attempt breakdowns — and in one of them the redaction
+is cosmetic, so distributing the file would distribute the hidden values along with it.
+Only the visible, derived numbers are in this repository.
+
+**Nothing redacted was used.** Each page was rendered and the brightness measured beneath
+every word before any figure was read, so values hidden behind a black box were discarded
+rather than recovered. Cells that are redacted appear as "–".
+
+These figures describe past sittings under past examiners. They are descriptive, not
+predictive, and small cohorts make single sessions noisy.
+
+## No hosted site
+
+GitHub Pages is switched off for this repository, on purpose. The page is meant to be
+cloned and opened locally, not browsed as a website.
+
+Note what that does and does not achieve: it removes the served site, the crawlable
+`github.io` domain, and the appearance of a publication. It does **not** make the data
+private — this repository is public, so `index.html` and `gradestats/` remain readable and
+downloadable on github.com. Anyone who wants the numbers private should either remove
+`gradestats/` from the repository or make the repository private.
+
+`robots.txt` is left in place from the period when the page was served. It is inert now.
 
 ## Dates
 
@@ -64,7 +89,7 @@ Reviews there are written by individual students and remain their authors' work.
 
 If you are an ETH staff member, or one of the student representatives who wrote the FAQ,
 and you would rather this material were not published here, open an issue and it will be
-removed.
+removed. That applies equally to the grade statistics in `gradestats/`.
 
 ## Code
 

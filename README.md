@@ -3,10 +3,9 @@
 A single-page course browser and credit planner for the ETH Zürich MSc in Statistics,
 built from the official course catalogue.
 
-**Live:** <https://hermberg.github.io/mscstats-eth-course-planner/>
-
-Or open `index.html` from a checkout — the page is fully self-contained, so it needs no
-server and no build step.
+**There is no hosted site.** Clone or download the repo and open `index.html` in a
+browser — the page is fully self-contained, so it needs no server and no build step.
+GitHub Pages is deliberately switched off; see [NOTICE.md](NOTICE.md).
 
 ![Autumn and spring catalogues merged into one searchable table](docs/screenshot.png)
 
@@ -21,8 +20,12 @@ server and no build step.
   the degree regulations: 12 ECTS core with one course per area, 15 electives, 4 seminar,
   the 52 rule, 30 thesis, 90 total.
 - **Programme rules** — the credit ladder, registration and exam rules, and course-level
-  commentary from the MSc Statistics Student FAQ, including grade averages and pass rates
-  for the six core courses.
+  commentary from the MSc Statistics Student FAQ.
+- **Exam record per course** — average, pass rate, number examined and how many of them
+  were MSc Statistics students, from ETH's own grade-statistics reports. Headline figures
+  come from the most recent sitting; every sitting is listed underneath, because a single
+  number hides trends like Fundamentals of Mathematical Statistics going 92.8% → 66.0%
+  pass across three autumns. 52 of the 84 catalogue courses have a record.
 - Deep links per course to the ETH catalogue entry and to coursereview.ch.
 
 ## Repository layout
@@ -34,13 +37,14 @@ server and no build step.
 | `courses.json` | The parsed catalogue, 90 records. The useful artifact if you only want data. |
 | `index.html` | Generated page. Committed so GitHub Pages can serve it directly. |
 | `pdf/` | The two catalogue prints the parse reads. |
-| `robots.txt` | Keeps the published page out of search indexes. See NOTICE.md. |
+| `robots.txt` | Legacy of the period when the page was served; harmless now. |
+| `gradestats/` | The exam-record layer: derived data, and the scripts that produced it. Optional — delete it and rebuild for a page with no grade figures. |
 
 ## Rebuilding
 
 ```bash
 python3 parse.py     # pdf/*.pdf  -> courses.json   (needs pdftotext, from poppler-utils)
-python3 build.py     # courses.json -> index.html   (no dependencies)
+python3 build.py     # courses.json + gradestats/ -> index.html   (no dependencies)
 ```
 
 Both honour environment overrides: `PDF_DIR`, `COURSES`, `OUT`.
@@ -48,6 +52,30 @@ Both honour environment overrides: `PDF_DIR`, `COURSES`, `OUT`.
 To refresh for a new semester, print the catalogue pages from
 `vvz.ethz.ch` (Statistics Master curriculum, "Catalogue data" view, print to PDF) into
 `pdf/`, then re-run both scripts. Filenames only need to contain "Autumn" or "Spring".
+
+## The exam-record layer
+
+`gradestats/gradestats.json` is built from five ETH reports, *Notendurchschnitte pro Fach
+und Stufe für Master-Studiengang Statistik*, covering exam sessions W24, S24, W25, S25 and
+W26 (HS 2023 through HS 2025). **The source PDFs are not in this repository** — see
+NOTICE.md for why.
+
+Extracting them was harder than it looks, for one reason worth knowing:
+
+**Every source report is redacted, three different ways** — vector rectangles, a raster
+image overlay, and redaction burnt into a page scan. In one file the black boxes are drawn
+*over live text*, so ordinary text extraction silently recovers figures that were
+deliberately hidden. `gradestats/visible.py` therefore renders each page and measures the
+mean luminance beneath every word's bounding box, discarding anything sitting on a black
+field. Only text a human can actually see is used.
+
+Two further traps: one file stores landscape pages as rotated portrait, so word coordinates
+arrive in a different space from the render and every column lands wrong until the page's
+rotation matrix is applied; and three of the five files have no text layer at all, so those
+were transcribed by eye from page renders with tesseract as a cross-check. OCR was wrong
+often enough to matter — it read `39.3` where the page shows `89.3`. Column assignment is
+verified against the identity `%best = 100 × best / (best + n.best)`, which passes for
+every programmatically parsed row.
 
 ## Notes on the parser
 
