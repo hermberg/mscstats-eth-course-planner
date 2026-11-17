@@ -6,10 +6,10 @@
   "section": "Subject Specific Electives",
   "subsection": "",
   "type": "W",
-  "ects": null,
+  "ects": 5.0,
   "hours": "",
   "lecturers": "O. Mees",
-  "periodicity": "non-recurring course",
+  "periodicity": "confirmed for Spring 2027 (the Spring 2026 print said non-recurring)",
   "abstract": "This course provides a comprehensive introduction to modern robot learning, combining classical techniques with the latest advances in large-scale models: Students will start by learning the fundamentals of imitation learning, reinforcement learning, and policy optimization, and gradually progress to advanced topics including Vision-Language-Action (VLA) models and foundation models for robotics",
   "learning_objective": "After attending this course, students will:\n1. Understand the core principles of imitation learning, reinforcement learning, and policy learning.\n2. Implement basic robot learning systems in simulation and on real robots.\n3. Explore state-of-the-art Vision-Language Action and foundation models for robotics.\n4. Design and evaluate scalable robot learning pipelines integrating perception, control, and multi-modal reasoning.",
   "content": "The course covers classical robot learning methods, policy optimization, and imitation learning. Students will apply these concepts through hands-on assignments and projects. In the latter part, the course introduces VLAs and foundation models, showing how large-scale, multi-modal models can be used for perception, decision-making, and action in robotic systems.",
@@ -19,8 +19,6 @@
   "notes_text": "The deadline for deregistering expires at the end of the second week of the semester. Students who are still registered after that date, but do not attend the course will officially fail the course.",
   "competencies": "",
   "flags": [
-   "ECTS to confirm",
-   "Listed non-recurring",
    "De-register by week 2"
   ],
   "notes": [],
@@ -34,7 +32,7 @@
   "section": "Free Electives",
   "subsection": "",
   "type": "W",
-  "ects": null,
+  "ects": 3.0,
   "hours": "",
   "lecturers": "A. Devos, I. Schlág",
   "periodicity": "every semester recurring course",
@@ -46,9 +44,7 @@
   "lecture_notes": "",
   "notes_text": "",
   "competencies": "",
-  "flags": [
-   "ECTS to confirm"
-  ],
+  "flags": [],
   "notes": [],
   "both_semesters": false,
   "url": "https://vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2026S&ansicht=KATALOGDATEN&lerneinheitId=197790&lang=en"
@@ -60,7 +56,7 @@
   "section": "Free Electives",
   "subsection": "",
   "type": "W",
-  "ects": null,
+  "ects": 3.0,
   "hours": "",
   "lecturers": "K. O'Sullivan, R. Jakob, M. Kreft, P. Langer",
   "periodicity": "yearly recurring course",
@@ -73,7 +69,6 @@
   "notes_text": "",
   "competencies": "Subject-specific Competencies | Concepts and Theories | fostered\nTechniques and Technologies | assessed\nMethod-specific Competencies | Decision-making | fostered\nProblem-solving | assessed\nProject Management | fostered\nSocial Competencies | Communication | assessed\nCooperation and Teamwork | fostered\nCustomer Orientation | fostered\nPersonal Competencies | Creative Thinking | fostered\nCritical Thinking | assessed\nSelf-direction and Self-management | fostered",
   "flags": [
-   "ECTS to confirm",
    "Catalogue entry in German"
   ],
   "notes": [],
@@ -87,7 +82,7 @@
   "section": "Science in Perspective",
   "subsection": "",
   "type": "W",
-  "ects": null,
+  "ects": 3.0,
   "hours": "",
   "lecturers": "U. Brandes",
   "periodicity": "yearly recurring course",
@@ -100,7 +95,6 @@
   "notes_text": "Students should be comfortable with mathematical derivations and scripting for data analysis.",
   "competencies": "Subject-specific Competencies | Concepts and Theories | fostered\nTechniques and Technologies | assessed\nMethod-specific Competencies | Analytical Competencies | assessed\nDecision-making | fostered\nMedia and Digital Technologies | assessed\nProblem-solving | fostered\nProject Management | fostered\nSocial Competencies | Communication | assessed\nCooperation and Teamwork | assessed\nSensitivity to Diversity | fostered\nPersonal Competencies | Adaptability and Flexibility | fostered\nCreative Thinking | fostered\nCritical Thinking | fostered\nIntegrity and Work Ethics | assessed\nSelf-awareness and Self-reflection | fostered\nSelf-direction and Self-management | fostered",
   "flags": [
-   "ECTS to confirm",
    "Project group commitment required"
   ],
   "notes": [],

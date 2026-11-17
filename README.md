@@ -64,15 +64,17 @@ Perspective — those sections link out to separate catalogues — and new cours
 after the curriculum pages are printed. `extra/extra.json` holds such courses in the
 same record shape as `courses.json`, and `build.py` appends it.
 
-One caveat is wired into the page. The catalogue's **"Catalogue data" view does not
-print the ECTS value** — it lives in the "Courses" view — so a course transcribed from
-that view has `"ects": null`. The page renders those as **?** in amber, flags them
-*ECTS to confirm*, counts them as **0** in every total, and says in the selection panel
-how many of the selected courses carry no confirmed figure. A total containing one is a
-floor, never a sum. Fill the number in and rebuild to clear it.
+One caveat is wired into the page, because it bites every time a course is added. The
+catalogue's **"Catalogue data" view does not print the ECTS value** — it lives in the
+separate "Courses" view — so a course transcribed from that view should be given
+`"ects": null` rather than a guess. The page renders null as **?** in amber, flags it
+*ECTS to confirm*, counts it as **0** in every total, and says in the selection panel how
+many of the selected courses carry no confirmed figure, so a total containing one reads
+as a floor rather than a sum. Fill the number in and rebuild to clear it.
 
-Currently added: Robot Learning (SSE), Large-Scale AI Engineering and Building Agentic
-AI Systems (free electives), Soccer Analytics (Science in Perspective).
+Currently added, all with confirmed credit values: Robot Learning (subject-specific
+elective, 5), Large-Scale AI Engineering (free elective, 3), Building Agentic AI Systems
+(free elective, 3), Soccer Analytics (Science in Perspective, 3).
 
 ## The exam-record layer
 
