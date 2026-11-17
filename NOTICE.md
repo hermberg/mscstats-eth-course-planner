@@ -5,7 +5,7 @@ resource and carries no authority over any of the material it presents.
 
 ## Course catalogue data
 
-`courses.json`, `pdf/` and the course content rendered in `index.html` are taken from
+`courses.json`, `extra/extra.json`, `pdf/` and the course content rendered in `index.html` are taken from
 the **ETH Zürich course catalogue** (`vvz.ethz.ch`) for the Master's Programme in
 Statistics, autumn and spring semesters. Copyright in that material belongs to ETH
 Zürich. It is reproduced here unmodified, for personal academic planning, with each
@@ -22,6 +22,12 @@ only the code.
 The catalogue changes continuously — courses are withdrawn, credits and lecturers change,
 biennial courses skip years. **Treat anything here as a snapshot and verify against the
 live catalogue before acting on it.**
+
+`extra/extra.json` holds courses transcribed by hand from individual ETH catalogue
+prints, for the sections the curriculum pages only link out to. Same source, same
+copyright, same snapshot caveat. The catalogue's "Catalogue data" view omits the credit
+value, so those records carry no ECTS figure and are marked unconfirmed in the page
+rather than filled in with a guess.
 
 ## Programme structure, rules and course commentary
 

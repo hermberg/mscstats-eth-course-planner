@@ -26,6 +26,9 @@ GitHub Pages is deliberately switched off; see [NOTICE.md](NOTICE.md).
   come from the most recent sitting; every sitting is listed underneath, because a single
   number hides trends like Fundamentals of Mathematical Statistics going 92.8% → 66.0%
   pass across three autumns. 52 of the 84 catalogue courses have a record.
+- **Free Electives and Science in Perspective**, which the two curriculum catalogues
+  only link out to, carry hand-added courses from individual catalogue prints — see
+  `extra/`. The credit checker tracks GESS (2) and free electives (6) alongside the rest.
 - Deep links per course to the ETH catalogue entry and to coursereview.ch.
 
 ## Repository layout
@@ -39,12 +42,13 @@ GitHub Pages is deliberately switched off; see [NOTICE.md](NOTICE.md).
 | `pdf/` | The two catalogue prints the parse reads. |
 | `robots.txt` | Legacy of the period when the page was served; harmless now. |
 | `gradestats/` | The exam-record layer: derived data, and the scripts that produced it. Optional — delete it and rebuild for a page with no grade figures. |
+| `extra/` | Hand-added courses, same record shape as `courses.json`. Optional — delete it and rebuild for only what the two curriculum PDFs contain. |
 
 ## Rebuilding
 
 ```bash
 python3 parse.py     # pdf/*.pdf  -> courses.json   (needs pdftotext, from poppler-utils)
-python3 build.py     # courses.json + gradestats/ -> index.html   (no dependencies)
+python3 build.py     # courses.json + gradestats/ + extra/ -> index.html   (no deps)
 ```
 
 Both honour environment overrides: `PDF_DIR`, `COURSES`, `OUT`.
@@ -52,6 +56,23 @@ Both honour environment overrides: `PDF_DIR`, `COURSES`, `OUT`.
 To refresh for a new semester, print the catalogue pages from
 `vvz.ethz.ch` (Statistics Master curriculum, "Catalogue data" view, print to PDF) into
 `pdf/`, then re-run both scripts. Filenames only need to contain "Autumn" or "Spring".
+
+## The hand-added layer
+
+The curriculum catalogues carry no course rows for Free Electives or Science in
+Perspective — those sections link out to separate catalogues — and new courses appear
+after the curriculum pages are printed. `extra/extra.json` holds such courses in the
+same record shape as `courses.json`, and `build.py` appends it.
+
+One caveat is wired into the page. The catalogue's **"Catalogue data" view does not
+print the ECTS value** — it lives in the "Courses" view — so a course transcribed from
+that view has `"ects": null`. The page renders those as **?** in amber, flags them
+*ECTS to confirm*, counts them as **0** in every total, and says in the selection panel
+how many of the selected courses carry no confirmed figure. A total containing one is a
+floor, never a sum. Fill the number in and rebuild to clear it.
+
+Currently added: Robot Learning (SSE), Large-Scale AI Engineering and Building Agentic
+AI Systems (free electives), Soccer Analytics (Science in Perspective).
 
 ## The exam-record layer
 

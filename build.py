@@ -12,6 +12,17 @@ try:
 except FileNotFoundError:
     GS = {}
 
+# Optional layer: courses added by hand from individual catalogue prints, for
+# the sections the curriculum PDFs only link out to (Free Electives, Science in
+# Perspective) and for courses announced after those PDFs were printed. Same
+# record shape as courses.json; "ects": null means the figure was not on the
+# print and still has to be confirmed. Delete extra/extra.json and rebuild to
+# ship only what the two curriculum PDFs contain.
+try:
+    C += json.load(open(os.path.join(HERE, "extra", "extra.json")))
+except FileNotFoundError:
+    pass
+
 BULLET = re.compile(r'^\s*([-•*·–]|\d+[.)]|[a-z][.)]\s)')
 
 
@@ -145,10 +156,12 @@ FAQ = {
 }
 
 DEPT = {"401": "Maths", "447": "Applied Stats", "252": "CS", "227": "IT & EE",
-        "263": "CS", "261": "CS", "636": "Biosystems"}
+        "263": "CS", "261": "CS", "636": "Biosystems", "363": "MTEC",
+        "851": "GESS"}
 
 SEC_ORDER = ["Core Courses", "Subject Specific Electives",
-             "Seminar or Semester Paper", "Master's Thesis"]
+             "Seminar or Semester Paper", "Science in Perspective",
+             "Free Electives", "Master's Thesis"]
 SUB_ORDER = ["Statistical Modelling", "Applied Statistics", "Mathematical Statistics"]
 
 data = []
@@ -161,7 +174,11 @@ for i, x in enumerate(C):
         "code": x["code"],
         "title": x["title"],
         "type": x["type"],
-        "ects": x["ects"],
+        # A hand-added course whose print did not carry the credit figure.
+        # Counted as 0 so no total is inflated by a guess, and marked so the
+        # cell reads "?" rather than a number nobody verified.
+        "ects": x["ects"] if x["ects"] is not None else 0,
+        "ectsq": x["ects"] is None,
         "hours": x["hours"],
         "lect": x["lecturers"],
         "flags": x["flags"],
@@ -178,6 +195,7 @@ for i, x in enumerate(C):
         "faq": FAQ.get(x["code"]),
         "gs": GS.get(x["code"]),
         "dept": DEPT.get(x["code"][:3], ""),
+        "per": x.get("periodicity", ""),
     }
     # "Does not take place this semester" is a Spring 2026 fact. These courses
     # would be taken in Spring 2027, where availability is not yet published,
@@ -571,6 +589,8 @@ mark{background:var(--accent-soft); color:inherit; border-radius:2px; padding:0 
   .legend{right:auto; left:0}
   .field{grid-template-columns:1fr; gap:5px}
 }
+  .ects.q,.se.q{color:var(--warn); cursor:help}
+  .seltail .warnt{color:var(--warn)}
 @media (prefers-reduced-motion:reduce){*{transition:none !important}}
 </style>
 
@@ -578,7 +598,7 @@ mark{background:var(--accent-soft); color:inherit; border-radius:2px; padding:0 
 <header class="mast">
   <p class="eyebrow">ETH Zürich · D-MATH · MSc Statistics</p>
   <h1>Statistics MSc Course Planner</h1>
-  <p class="sub">Every course unit listed in the autumn and spring catalogues for the Master's Programme in Statistics — <b>90 course units</b> parsed verbatim from the official course catalogue, merged into one searchable table, with structure rules and course commentary from the MSc Statistics Student FAQ. Tick courses to build a semester and the credit total is checked against the graduation requirements live.</p>
+  <p class="sub">Every course unit listed in the autumn and spring catalogues for the Master's Programme in Statistics — <b>90 course units</b> parsed verbatim from the official course catalogue, merged into one searchable table, plus hand-added courses for the Free Electives and Science in Perspective sections, which the curriculum catalogues only link out to. Structure rules and course commentary come from the MSc Statistics Student FAQ. Tick courses to build a semester and the credit total is checked against the graduation requirements live.</p>
   <details class="struct">
     <summary>
       <div class="sh">
@@ -617,15 +637,17 @@ mark{background:var(--accent-soft); color:inherit; border-radius:2px; padding:0 
           <tr class="rule"><td class="n">52 ECTS</td><td><b>The 52 rule</b> — core + subject-specific electives + seminar must sum to at least 52 ECTS combined.
             <small>This is the binding constraint. The three individual minimums only add to 31, so roughly 21 further ECTS must come from these three buckets.</small></td></tr>
           <tr><td class="n">2 ECTS</td><td><b>GESS — Science in Perspective</b> — ethics, philosophy of science, law, history, political and social sciences.
-            <small>Not listed in these two catalogues; the section links out to the separate GESS catalogue.</small></td></tr>
+            <small>The curriculum catalogues carry no course rows here; the section links out to the separate GESS catalogue. Courses added by hand from individual prints appear in this table under <b>Science in Perspective</b>.</small></td></tr>
           <tr><td class="n">30 ECTS</td><td><b>Master's thesis</b> — substantial independent research project, theoretical or applied, normally in the final stage.</td></tr>
           <tr><td class="n">6 ECTS</td><td><b>Free electives</b> — the remainder, from almost any department.
-            <small>Also not enumerated in these catalogues. The structured requirements above reach 84 ECTS.</small></td></tr>
+            <small>Also carries no rows in the curriculum catalogues. The structured requirements above reach 84 ECTS. Courses added by hand appear under <b>Free Electives</b>.</small></td></tr>
           <tr class="tot"><td class="n">90 ECTS</td><td>Total required to graduate</td></tr>
         </tbody>
       </table>
 
       <div class="note-box"><b>The one-per-area rule binds harder than the 12 ECTS.</b> The cheapest legal core combination is Time Series Analysis (4) + Applied Analysis of Variance (5) + Likelihood and Regression I (7) = 16 ECTS, which already clears 12. So treat the core requirement as "one from each area", not as a credit target — and note that Time Series Analysis is biennial and Likelihood and Regression I is hosted at UZH.</div>
+
+      <div class="note-box"><b>Hand-added courses carry no credit figure yet.</b> The catalogue "Catalogue data" view omits the ECTS value, so courses added to the Free Electives and Science in Perspective sections from individual prints show <b>?</b> in the ECTS column and are flagged <i>ECTS to confirm</i>. They count as 0 in every total until the figure is filled in, so a selection containing one reads as a floor, not a sum.</div>
 
       <div class="note-box urgent"><b>Time-critical for Autumn 2026.</b> Likelihood and Regression I is one of only two courses in the Mathematical Statistics core area, and it is hosted at UZH — taking it requires a mobility application whose deadline is the Friday before the lecture period begins. The UZH lecture period runs 14 September – 19 December 2026, putting that deadline on or around <b>Friday 11 September 2026</b>. If that passes, the only remaining Mathematical Statistics option is Fundamentals of Mathematical Statistics (9 ECTS, proof-based, the lowest average and pass rate of the six core courses). Verify the exact date with UZH.</div>
 
@@ -704,9 +726,12 @@ mark{background:var(--accent-soft); color:inherit; border-radius:2px; padding:0 
 
 <script>
 const DATA = __PAYLOAD__;
-const SECS = ["Core Courses","Subject Specific Electives","Seminar or Semester Paper","Master's Thesis"];
+const SECS = ["Core Courses","Subject Specific Electives","Seminar or Semester Paper","Science in Perspective","Free Electives","Master's Thesis"];
+/* Only these three count toward the 52 rule. GESS and free electives are
+   their own minimums and sit outside it. */
+const MAIN = new Set(["Core Courses","Subject Specific Electives","Seminar or Semester Paper"]);
 const SUBS = ["Statistical Modelling","Applied Statistics","Mathematical Statistics"];
-const SEC_MIN = {"Core Courses":12,"Subject Specific Electives":15,"Seminar or Semester Paper":4,"Master's Thesis":30};
+const SEC_MIN = {"Core Courses":12,"Subject Specific Electives":15,"Seminar or Semester Paper":4,"Science in Perspective":2,"Free Electives":6,"Master's Thesis":30};
 const SEMNAME = {A:"Autumn", S:"Spring"};
 const st = {q:"", sem:"all", secs:new Set(), sort:"cat", avail:false, eth:false, min:false};
 const open = new Set();
@@ -774,7 +799,7 @@ function match(c){
   if(st.secs.size && !st.secs.has(c.sec)) return false;
   if(st.avail && c.flags.some(f => /Not taking place/.test(f))) return false;
   if(st.eth && c.flags.some(f => /UZH/.test(f))) return false;
-  if(st.min && c.ects < 4) return false;
+  if(st.min && !c.ectsq && c.ects < 4) return false;
   if(st.q){
     for(const w of st.q.toLowerCase().split(/\s+/).filter(Boolean))
       if(!c.hay.includes(w)) return false;
@@ -811,7 +836,7 @@ function rowHTML(c){
     <span class="pick"><input type="checkbox" ${picked.has(c.i)?"checked":""} aria-label="Select ${esc(c.title)}"></span>
     <span class="code">${hi(c.code)}${c.dept ? `<span class="dep">${esc(c.dept)}</span>` : ""}</span>
     <span class="ttl"><span class="semtag ${c.sem}">${c.sem}</span>${hi(c.title)}<a class="revlink" href="https://coursereview.ch/course/${c.code}" target="_blank" rel="noopener">Reviews</a></span>
-    <span class="ects">${c.ects % 1 ? c.ects.toFixed(1) : c.ects}</span>
+    <span class="ects${c.ectsq ? " q" : ""}"${c.ectsq ? ' title="Credit value was not on the catalogue print — confirm in the course catalogue"' : ""}>${c.ectsq ? "?" : (c.ects % 1 ? c.ects.toFixed(1) : c.ects)}</span>
     <span class="hrs">${esc(c.hours || "—")}</span>
     <span class="who">${hi(c.lect || "—")}</span>
     <span class="caret">▶</span>
@@ -845,7 +870,7 @@ function rowHTML(c){
     <div class="dl">
       <a href="${c.url}" target="_blank" rel="noopener">ETH course catalogue ↗</a>
       <a href="https://coursereview.ch/course/${c.code}" target="_blank" rel="noopener">Student reviews &amp; ratings on coursereview.ch ↗</a>
-      <span class="hrs">${SEMNAME[c.sem]} · Type ${esc(c.type)} · ${esc(c.hours || "no contact hours")}</span>
+      <span class="hrs">${SEMNAME[c.sem]} · Type ${esc(c.type)} · ${esc(c.hours || "hours not on print")}${c.per ? ` · ${esc(c.per)}` : ""}</span>
     </div>
   </div>
 </div>`;
@@ -979,7 +1004,7 @@ function selectionPanel(){
       <span class="code">${esc(c.code)}${c.dept ? `<span class="dep">${esc(c.dept)}</span>` : ""}</span>
       <span>${c.sems.sort().map(s => `<span class="semtag ${s}">${s}</span>`).join("")}</span>
       <span class="st">${esc(c.title)}</span>
-      <span class="se">${num(c.ects)}</span>
+      <span class="se${c.ectsq ? " q" : ""}">${c.ectsq ? "?" : num(c.ects)}</span>
       <button class="unpick" data-code="${esc(c.code)}" aria-label="Remove ${esc(c.title)}">×</button>
     </div>`;
 
@@ -1009,18 +1034,20 @@ function selectionPanel(){
     h += `</section>`;
   }
   const tot = list.reduce((a,b) => a+b.ects, 0);
-  const fifty = list.filter(c => c.sec !== "Master's Thesis").reduce((a,b) => a+b.ects, 0);
+  const fifty = list.filter(c => MAIN.has(c.sec)).reduce((a,b) => a+b.ects, 0);
+  const unconf = list.filter(c => c.ectsq);
   h += `<div class="seltail">
-      <span class="tl">The 52 rule</span><span>${num(fifty)} / 52</span>
+      <span class="tl">The 52 rule — core, electives and seminar</span><span>${num(fifty)} / 52</span>
       <span class="tl">Selected</span><span>${num(tot)} / 90</span>
-      <span class="tl">GESS + free electives — not listed in these catalogues</span><span>8</span>
+      ${unconf.length ? `<span class="tl warnt">${unconf.length} selected course${
+        unconf.length > 1 ? "s carry" : " carries"} no confirmed credit value, so these totals are a floor</span><span>?</span>` : ""}
     </div>`;
   el.innerHTML = h;
 }
 
-/* Checks a selection against the MSc Statistics credit rules. GESS (2 ECTS)
-   and free electives are not enumerated in these two catalogues, so they are
-   shown as untracked rather than silently assumed satisfied. */
+/* Checks a selection against the MSc Statistics credit rules. GESS and free
+   electives carry no course rows in the two curriculum PDFs; anything tracked
+   there comes from extra/extra.json, added by hand from individual prints. */
 function requirements(all){
   // Six codes (semester papers, thesis, the two 0-credit admin units) are listed
   // in both catalogues. Count each code once, or picking a thesis in each
@@ -1032,9 +1059,11 @@ function requirements(all){
   const elec = sum(c => c.sec === "Subject Specific Electives");
   const sem  = sum(c => c.sec === "Seminar or Semester Paper");
   const thes = sum(c => c.sec === "Master's Thesis");
+  const gess = sum(c => c.sec === "Science in Perspective");
+  const free = sum(c => c.sec === "Free Electives");
   const areas = new Set(sel.filter(c => c.sec === "Core Courses" && c.sub).map(c => c.sub));
   const fiftytwo = core + elec + sem;
-  const total = fiftytwo + thes;
+  const total = fiftytwo + gess + free + thes;
   const n = v => v % 1 ? v.toFixed(1) : v;
   const rows = [
     ["Core", `${n(core)}/12`, core >= 12],
@@ -1042,14 +1071,17 @@ function requirements(all){
     ["Electives", `${n(elec)}/15`, elec >= 15],
     ["Seminar", `${n(sem)}/4`, sem >= 4],
     ["52 rule", `${n(fiftytwo)}/52`, fiftytwo >= 52],
+    ["GESS", `${n(gess)}/2`, gess >= 2],
+    ["Free electives", `${n(free)}/6`, free >= 6],
     ["Thesis", `${n(thes)}/30`, thes >= 30],
     ["Total", `${n(total)}/90`, total >= 90],
   ];
+  const unconf = sel.filter(c => c.ectsq).length;
   document.getElementById("reqs").innerHTML =
     rows.map(([l,v,ok]) => `<span class="req ${ok ? "done" : (sel.length ? "warn" : "")}">
       <span class="rl">${l}</span><span class="rv">${v}</span></span>`).join("")
-    + `<span class="req"><span class="rl">GESS + free electives</span><span class="rv">8</span>
-       <span class="rl">not in these catalogues</span></span>`;
+    + (unconf ? `<span class="req warn"><span class="rl">Credits to confirm</span>
+       <span class="rv">${unconf}</span></span>` : "");
 }
 
 /* ---------- events ---------- */
